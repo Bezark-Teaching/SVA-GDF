@@ -26,12 +26,12 @@ The  work of the class consists of the following:
 | Assignment                                                                     | Description                                                                | Due Date                     | Points        |
 |:-------------------------------------------------------------------------------|:---------------------------------------------------------------------------|:-----------------------------|---------------|
 | Class Participation                                                            | Actively participate in class discussions and contribute to group projects.|                              | 25            |
-| [Game Review](/Assignments/Game_Review.md)                                     | Play one of the suggested games and review it!                             |                              | 10            |
-| [Tabletop Game](/Assignments/Tabletop/Tabletop.md)                             | A playable prototype of a tabletop game                                    |                              | 16            |
-| [Labs 1-4](/Assignments/Labs/)                                                 | 4 short coding assignments designed to build proficiency. 6 points each.   |                              | 24            |
-| [2D Game Design Document](/Assignments/2D/2D_Concept.md)                       | A brief paper describing your concept for the 2D Game                      |                              | 10            |
-| [2D Game](/Assignments/2D/2DGame.md)                                           | A playable prototype of a 2D game                                          |                              | 25            |
-| [Capstone Concept Presentation](/Assignments/Capstone/Capstone_Concept.md)     | A brief Presentation describing your concept for the 2D Game               |                              | 10            |
+| [Game Review](/Assignments/Game_Review.md)                                     | Play one of the suggested games and review it!                             | 4/28                         | 10            |
+| [Tabletop Game](/Assignments/Tabletop/Tabletop.md)                             | A playable prototype of a tabletop game                                    | 2/3                          | 16            |
+| [Labs 1-4](/Assignments/Labs/)                                                 | 4 short coding assignments designed to build proficiency. 6 points each.   | 2/17, 2/24, 3/3 & 3/24       | 24            |
+| [2D Game Design Document](/Assignments/2D/2D_Concept.md)                       | A brief paper describing your concept for the 2D Game                      | 2/17                         | 10            |
+| [2D Game](/Assignments/2D/2DGame.md)                                           | A playable prototype of a 2D game                                          | 3/10                         | 25            |
+| [Capstone Concept Presentation](/Assignments/Capstone/Capstone_Concept.md)     | A brief Presentation describing your concept for the 2D Game               | 3/31                         | 10            |
 | [Capstone Game](/Assignments/Capstone/Capstone_Game.md)                        | A polished game. Can be an evolution of the 2D game or something new.      | Final                        | 30            |
 | **Total Points Possible**                                                      |                                                                            |                              | **150**       |
 
@@ -47,7 +47,7 @@ The course is split into 3 distinct modules each with a unique project:
 - Week 10-14: 3D Game Design/Final Project Development
 
 
-## Week 1 - What is a Game?
+## Week 1 1/13 - What is a Game?
 
 - [Week 1 Slides](https://docs.google.com/presentation/d/1o1wn7qCIHvm6pyRf_S_lDHJCvFAZv06cnDHy8nc7OfY/edit?usp=sharing)
 - [FILL OUT THIS FORM](https://forms.gle/5X6TjT88Yg5m5XLs8) so you can tell me if I’m giving you too much homework!
@@ -65,14 +65,14 @@ Break
 - **Homework: [Game Review](/Assignments/Game_Review.md)**
 - **Homework: [Tabletop Game](/Assignments/Tabletop.md)**
 
-## Week 2 - Prototyping and Iteration
+## Week 2  1/27 - Prototyping and Iteration
 - [MDA Framework - Systems, Loops and Balance](https://docs.google.com/presentation/d/1uAetOnfggzveGghece6A0NgGgMXQ8v8cDA54FXqsL08/edit?usp=sharing)
 - Prototyping Tabletop Games: Balancing and Mechanics
 - Reading: MDA 
 - MDA Framework
 - Systems, Loops and Balance
 
-## Week 3  Playtesting/Hello Godot
+## Week 3 2/3 - Playtesting/Hello Godot
 
 - Playtesting
 - Getting started with Godot
@@ -85,7 +85,7 @@ Break
 
 ---
 
-## Week 4 - Getting Started in 2D
+## Week 4 2/10 - Getting Started in 2D
 - Hello Godot
   - [Video turotial on Github and Godot](https://www.youtube.com/watch?v=E1srposxZWo)
   - Lab 1 review
@@ -94,11 +94,12 @@ Break
 - [Genres in 2D](https://docs.google.com/presentation/d/1ai6uhVzULKb22SbQ3zjPipXxItFrU2wMqn8B6BJ_dQM/edit)
   - [2D Game Brainstorming](/Resources/2D_Brainstorming.md)
 
-- **DUE: Process Paper**
 - **Homework: [2D Game Concept](/Assignments/2D/2D_Concept.md)**
 - **Homework: [2D Game](/Assignments/2D/2DGame.md)**
 
-## Week 5 - Coding Fundamentals
+## Week 5 2/17 - Coding Fundamentals
+
+**NO IN PERSON CLASS - Will be a video lecture**
 
 - [Lecture Part 1](https://youtube.com/live/_B1OV87gQ8E)
 - [Lecture Part 2](https://youtube.com/live/trp4iZQXosc)
@@ -111,8 +112,8 @@ Break
 - ****DUE: [2D Game Concept](/Assignments/2D/2D_Concept.md)****
 - **Homework: [Lab 2](/Assignments/Labs/Lab_2.md)**
 
-
-## Week 6 – Input and Interactions
+ 
+## Week 6 2/24 – Input, Interactions and Patterns
 
 - [Lecture](https://youtube.com/live/hgKD1UNwm_k)
 - Lab Review - 20
@@ -128,10 +129,19 @@ Break
 
 - Functions/Signals
 
-- **DUE: Lab 2**
-- **DUE: 2D Concept**
+- Git Collaboration and Branches
 
-## Week 7 - Level and Environment Design
+- [2D Components](/Modules/2D/2D_Components/)
+- Common Patterns (Time permitting)
+  - Items 
+  - Enemies
+  - Checkpoints
+  - Respawns
+  - Killboxes
+- **Homework: [Lab 3](/Assignments/Labs/Lab_3.md)**
+- **DUE: Lab 2**
+
+## Week 7 3/3 - Level, Environment and UI Design
 
 - Area2D Review
 
@@ -148,46 +158,19 @@ Break
 
 - Sound
 - Lighting
-
-- Git Collaboration and Branches
-
-- Common Patterns (Time permitting)
-  - Items 
-  - Enemies
-  - Checkpoints
-  - Respawns
-  - Killboxes
-- **Homework: [Lab 3](/Assignments/Labs/Lab_3.md)**
-
-## Week 8 - UI and Patterns
-- [2D Components](/Modules/2D/2D_Components/)
 - Control Nodes
-- Common Patterns
-  - Items 
-  - Enemies
-  - Checkpoints
-  - Respawns
-  - Killboxes
-
-
 - Project Development
+- **DUE: Lab 3**
+--- SPRING BREAK!!! ---
 
-## Week 9 - Playtesting / Hello 3D
+## Week 8 3/10 - Playtesting / Hello 3D
 - Playtesting
 - **DUE: 2D Game**
 - Hello 3D
 
 ---
 
-## Week 10 - 3D Environments
-
-- Capstone Brainstorming
-
-- Hello 3D
-  - Introduction to 3D in Godot
-  - Lighting and Camera Techniques in 3D Games
-
-## Week 10 - 3D Environments
+## Week 9 3/17 - 3D Environments
 
 - [Capstone Brainstorm](/Modules/3D/CapstoneBrainstorm.md)
 
@@ -200,19 +183,18 @@ Break
 - **Homework: [Capstone Game](/Assignments/Capstone/Capstone_Game)** 
 - **Homework: [Capstone Presentation](/Assignments/Capstone/Capstone_Concept)** 
 
-## Week 11 - Advanced 3D Topics
-- Materials, Models, Lights, Fog, Camera Attrributes
+## Week 10 3/24 - Advanced 3D Topics
+- Materials, Models, Lights, Fog, Camera Attributes
 
 - Animated Characters
   - [Mixamo](https://www.mixamo.com)
   - [Character Animation COmbiner](https://nilooy.github.io/character-animation-combiner/)
 
-- XR
 
 - Physics/Sandbox
 - **DUE: Lab 4**
 
-## Week 12 Review and Capstone Presentations
+## Week 11 3/31 - Review and Capstone Presentations
 
 
 - Review
@@ -222,23 +204,26 @@ Break
 
 - Capstone presentations 
 
-## Week 13 - Capstone Presentations
+## Week 12 4/7 - Capstone Presentations
 
 - Capstone presentations 
 
-## Week 14 - Review
+## Week 13 4/14 - XR
+- XR
+## Weeks 14 4/21 - Review
 
 - [Web Export Github Pages](https://bezark.github.io/FCLC-Video-Game-Design/Modules/WebExport/exports/v3/)
 
 - **DUE: Final project playtest**
 - Review 
 
-## Week 15 - Playtesting and Beyond
+## Week 15 4/28 - Playtesting and Beyond
 
-- **DUE: Capstone Project**
 - Preparing for the Game Industry: Portfolio and Career Paths
+- **DUE: Game Review**
 
-
+## Week 16 5/5
+- **DUE: Capstone Project**
 
 # **Necessary Materials:**
 - [Godot 4.3](https://godotengine.org/) : An [open source](https://en.wikipedia.org/wiki/Open_source) 2D, 3D and XR game engine.
