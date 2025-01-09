@@ -25,7 +25,7 @@ The  work of the class consists of the following:
 
 | Assignment                                                                     | Description                                                                | Due Date                     | Points        |
 |:-------------------------------------------------------------------------------|:---------------------------------------------------------------------------|:-----------------------------|---------------|
-| Class Participation                                                            | Actively participate in class discussions and contribute to group projects.|                              | 15            |
+| Class Participation                                                            | Actively participate in class discussions and contribute to group projects.|                              | 25            |
 | [Game Review](/Assignments/Game_Review.md)                                     | Play one of the suggested games and review it!                             |                              | 10            |
 | [Tabletop Game](/Assignments/Tabletop/Tabletop.md)                             | A playable prototype of a tabletop game                                    |                              | 16            |
 | [Labs 1-4](/Assignments/Labs/)                                                 | 4 short coding assignments designed to build proficiency. 6 points each.   |                              | 24            |
