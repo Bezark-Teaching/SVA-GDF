@@ -26,12 +26,12 @@ The  work of the class consists of the following:
 | Assignment                                                                     | Description                                                                | Due Date                     | Points        |
 |:-------------------------------------------------------------------------------|:---------------------------------------------------------------------------|:-----------------------------|---------------|
 | Class Participation                                                            | Actively participate in class discussions and contribute to group projects.|                              | 25            |
-| [Game Review](/Assignments/Game_Review.md)                                     | Play one of the suggested games and review it!                             | 4/28                         | 10            |
 | [Tabletop Game](/Assignments/Tabletop/Tabletop.md)                             | A playable prototype of a tabletop game                                    | 2/3                          | 16            |
 | [Labs 1-4](/Assignments/Labs/)                                                 | 4 short coding assignments designed to build proficiency. 6 points each.   | 2/17, 2/24, 3/3 & 3/24       | 24            |
 | [2D Game Design Document](/Assignments/2D/2D_Concept.md)                       | A brief paper describing your concept for the 2D Game                      | 2/17                         | 10            |
 | [2D Game](/Assignments/2D/2DGame.md)                                           | A playable prototype of a 2D game                                          | 3/10                         | 25            |
 | [Capstone Concept Presentation](/Assignments/Capstone/Capstone_Concept.md)     | A brief Presentation describing your concept for the 2D Game               | 3/31                         | 10            |
+| [Game Review](/Assignments/Game_Review.md)                                     | Play one of the suggested games and review it!                             | 4/28                         | 10            |
 | [Capstone Game](/Assignments/Capstone/Capstone_Game.md)                        | A polished game. Can be an evolution of the 2D game or something new.      | Final                        | 30            |
 | **Total Points Possible**                                                      |                                                                            |                              | **150**       |
 
@@ -49,7 +49,7 @@ The course is split into 3 distinct modules each with a unique project:
 
 ## Week 1 1/13 - What is a Game?
 
-- [Week 1 Slides](https://docs.google.com/presentation/d/1o1wn7qCIHvm6pyRf_S_lDHJCvFAZv06cnDHy8nc7OfY/edit?usp=sharing)
+- [Week 1 Slides](https://docs.google.com/presentation/d/1XyTh790-vgH1Z5X2Lh1e2syvccYtGBS-zmjpKJIgLjc/edit#slide=id.g2fd80f9093c_0_446)
 - [FILL OUT THIS FORM](https://forms.gle/5X6TjT88Yg5m5XLs8) so you can tell me if I’m giving you too much homework!
 
 - Who are you/Syllabus Review
