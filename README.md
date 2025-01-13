@@ -49,7 +49,7 @@ The course is split into 3 distinct modules each with a unique project:
 
 ## Week 1 1/13 - What is a Game?
 
-- [Week 1 Slides](https://docs.google.com/presentation/d/1XyTh790-vgH1Z5X2Lh1e2syvccYtGBS-zmjpKJIgLjc/edit#slide=id.g2fd80f9093c_0_446)
+- [Week 1 Slides](https://docs.google.com/presentation/d/1XyTh790-vgH1Z5X2Lh1e2syvccYtGBS-zmjpKJIgLjc/edit?usp=sharing)
 - [FILL OUT THIS FORM](https://forms.gle/5X6TjT88Yg5m5XLs8) so you can tell me if I’m giving you too much homework!
 
 - Who are you/Syllabus Review
