@@ -161,6 +161,8 @@ Break
 - Control Nodes
 - Project Development
 - **DUE: Lab 3**
+
+
 --- SPRING BREAK!!! ---
 
 ## Week 8 3/10 - Playtesting / Hello 3D
