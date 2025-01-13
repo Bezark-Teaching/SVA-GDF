@@ -61,7 +61,7 @@ Break
 - Playtesting
 - Group Work
 
-
+- **Homework: Read [MDA Article](https://github.com/Bezark-Teaching/SVA-DSD-4721-GDF/blob/main/Readings/MDA.pdf)**
 - **Homework: [Game Review](/Assignments/Game_Review.md)**
 - **Homework: [Tabletop Game](/Assignments/Tabletop.md)**
 
