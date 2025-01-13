@@ -262,7 +262,7 @@ John Bezark (he/they) is a Brooklyn based Game Designer, Creative Technologist, 
 Nowadays they like to use the Godot Game Engine to create one of a kind immersive and interactive experiences, games and performance art.
 
 When not creating weird things, John also really likes to work in education and he’s passionate about teaching others how to design immersive spaces, how to make games and how to see the world through the lens of Systems Thinking.
-**Email: jbezark@fordham.edu**
+**Email: jbezark@sva.edu**
 [Portfolio](https://johnbezark.info/)
 
 **Office Hours by appointment.**
