@@ -62,7 +62,7 @@ Break
 - Group Work
 
 - **Homework: Read [MDA Article](https://github.com/Bezark-Teaching/SVA-DSD-4721-GDF/blob/main/Readings/MDA.pdf)**
-- **Homework: [Tabletop Game](/Assignments/Tabletop.md)**
+- **Homework: [Tabletop Game](/Assignments/Tabletop/Tabletop.md)**
 - **Homework: [Game Review](/Assignments/Game_Review.md)**
 
 ## Week 2  1/27 - Prototyping and Iteration
