@@ -51,7 +51,7 @@ The course is split into 3 distinct modules each with a unique project:
 
 - [Week 1 Slides](https://docs.google.com/presentation/d/1XyTh790-vgH1Z5X2Lh1e2syvccYtGBS-zmjpKJIgLjc/edit?usp=sharing)
 - [FILL OUT THIS FORM](https://forms.gle/5X6TjT88Yg5m5XLs8) so you can tell me if I’m giving you too much homework!
-
+- [Gamer Graph](https://www.tldraw.com/r/QirxMZ-xUEQYfwIW_xXY0?d=v226.-239.1752.864.page)
 - Who are you/Syllabus Review
 - Professor John
 - Game Design Fundamentals
