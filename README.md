@@ -68,6 +68,7 @@ Break
 ## Week 2  1/27 - Prototyping and Iteration
 - [MDA Framework - Systems, Loops and Balance](https://docs.google.com/presentation/d/1uAetOnfggzveGghece6A0NgGgMXQ8v8cDA54FXqsL08/edit?usp=sharing)
 - Prototyping Tabletop Games: Balancing and Mechanics
+- [Wilde Lab](https://sva.instructure.com/courses/2280328)
 - Reading: MDA 
 - MDA Framework
 - Systems, Loops and Balance
