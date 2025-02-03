@@ -79,7 +79,7 @@ Break
 
 - Playtesting
 - Getting started with Godot
-- [Git Init](/Modules/2D/Fundamentals/GitInit.md)
+- [In Class Recording](https://youtube.com/live/B7TpNjIVCc4)
 - Nodes and Scenes
 - [Video Tutorial](https://www.youtube.com/watch?v=E1srposxZWo)
 
