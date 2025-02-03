@@ -1,5 +1,5 @@
 
-# SVA Game Design Fundamentals Syllabus
+# SVA COOL Game Design Fundamentals Syllabus
 
 
 - **Course Code:** DSD 4721 
