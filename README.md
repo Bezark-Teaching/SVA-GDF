@@ -2,6 +2,11 @@
 # SVA COOL Game Design Fundamentals Syllabus
 
 
+
+WOWOWOWWOWo im having a great time in class!!!
+
+
+
 - **Course Code:** DSD 4721 
 - **Schedule:** Mon 3:20-6:10pm
 - **Instructor:** John Bezark
