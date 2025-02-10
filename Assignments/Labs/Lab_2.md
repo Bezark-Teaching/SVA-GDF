@@ -1,4 +1,4 @@
-## Lab 2: Scripts and Conditionals
+## Lab 3: Scripts and Conditionals
 
 Please complete the following exercise:
 
