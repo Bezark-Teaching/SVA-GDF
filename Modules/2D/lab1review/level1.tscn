@@ -1,0 +1,33 @@
+[gd_scene load_steps=4 format=3 uid="uid://8sxpahe5k6w3"]
+
+[ext_resource type="Texture2D" uid="uid://dhcfymxnh8otj" path="res://cuteboi.png" id="1_yc5y5"]
+[ext_resource type="PackedScene" uid="uid://ble0s8lv0qcta" path="res://tree.tscn" id="2_tj2hc"]
+[ext_resource type="PackedScene" uid="uid://dwky3py85mpqs" path="res://flower.tscn" id="3_ttr4c"]
+
+[node name="Level1" type="Node2D"]
+
+[node name="Cuteboi" type="Sprite2D" parent="."]
+position = Vector2(684, 340)
+texture = ExtResource("1_yc5y5")
+
+[node name="Tree" parent="." instance=ExtResource("2_tj2hc")]
+position = Vector2(59, 388)
+
+[node name="Tree2" parent="." instance=ExtResource("2_tj2hc")]
+position = Vector2(315, 378)
+
+[node name="Tree3" parent="." instance=ExtResource("2_tj2hc")]
+position = Vector2(659, 137)
+
+[node name="Tree4" parent="." instance=ExtResource("2_tj2hc")]
+position = Vector2(972, 239)
+
+[node name="Flower" parent="." instance=ExtResource("3_ttr4c")]
+modulate = Color(0.529724, 0.44629, 0.47708, 1)
+position = Vector2(536, 628)
+
+[node name="Flower2" parent="." instance=ExtResource("3_ttr4c")]
+position = Vector2(-20, 644)
+
+[node name="Flower3" parent="." instance=ExtResource("3_ttr4c")]
+position = Vector2(210, 638)

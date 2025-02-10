@@ -1,0 +1,24 @@
+[gd_scene load_steps=3 format=3 uid="uid://vd3okb7d2g8"]
+
+[ext_resource type="Texture2D" uid="uid://cr8xmxiyvw6y6" path="res://icon.svg" id="1_j352c"]
+[ext_resource type="Texture2D" uid="uid://dhcfymxnh8otj" path="res://cuteboi.png" id="2_atfof"]
+
+[node name="Icon" type="Sprite2D"]
+modulate = Color(0.695192, 0.547485, 0.660013, 1)
+position = Vector2(158, 124)
+texture = ExtResource("1_j352c")
+
+[node name="Node2D" type="Node2D" parent="."]
+position = Vector2(160, 0)
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(0, 160)
+texture = ExtResource("1_j352c")
+
+[node name="Icon2" type="Sprite2D" parent="."]
+position = Vector2(104, 288)
+texture = ExtResource("1_j352c")
+
+[node name="Cat" type="Sprite2D" parent="."]
+position = Vector2(360, 200)
+texture = ExtResource("2_atfof")

@@ -1,0 +1,21 @@
+[gd_scene load_steps=2 format=3 uid="uid://ce24ui2k3gm36"]
+
+[ext_resource type="Texture2D" uid="uid://dhcfymxnh8otj" path="res://cuteboi.png" id="1_tf73j"]
+
+[node name="OtherScene" type="Node2D"]
+
+[node name="Cuteboi" type="Sprite2D" parent="."]
+position = Vector2(84, 313)
+texture = ExtResource("1_tf73j")
+
+[node name="Cuteboi2" type="Sprite2D" parent="."]
+position = Vector2(1152, 505)
+texture = ExtResource("1_tf73j")
+
+[node name="Cuteboi4" type="Sprite2D" parent="."]
+position = Vector2(638, 333)
+texture = ExtResource("1_tf73j")
+
+[node name="Cuteboi3" type="Sprite2D" parent="."]
+position = Vector2(392, 325)
+texture = ExtResource("1_tf73j")

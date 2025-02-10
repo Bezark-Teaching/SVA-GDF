@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://dwky3py85mpqs"]
+
+[ext_resource type="Texture2D" uid="uid://dahaudp8m3q0r" path="res://flower.webp" id="1_8ashw"]
+
+[node name="Flower" type="Sprite2D"]
+modulate = Color(0.482353, 0.290196, 1, 1)
+position = Vector2(-1, -2.38419e-07)
+scale = Vector2(0.0825, 0.0825)
+texture = ExtResource("1_8ashw")
