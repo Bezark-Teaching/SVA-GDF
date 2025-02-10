@@ -101,7 +101,7 @@ Break
   - Scripts and properties
   - Variables
 - [Conditionals](Resources/ConditionalDiagram.png)
-- [Conditionals, Input Lecture](https://www.youtube.com/watch?v=PyADIUsLobs)
+    - [Past Lecture](https://www.youtube.com/watch?v=PyADIUsLobs)
 
 
 - **Homework: [2D Game Concept](/Assignments/2D/2D_Concept.md)**
