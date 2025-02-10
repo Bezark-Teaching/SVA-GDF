@@ -89,6 +89,9 @@ Break
 ---
 
 ## Week 4 2/10 - Getting Started in 2D
+
+https://youtube.com/live/ckjou1uWdmA?feature=share
+
 - Hello Godot- Hello Godot
   - [Video turotial on Github and Godot](https://www.youtube.com/watch?v=E1srposxZWo)
   - Lab 1 review
