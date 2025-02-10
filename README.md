@@ -1,15 +1,16 @@
 # Top of Mind
+- THERE IS NO IN PERSON CLASS 2/17. Stay tuned for an announcement with a video recording.
 - We have started the [2D Game Project](Assignments/2D/2DGame.md)!
   - The [2D Concept Paper](Assignments/2D/2D_Concept.md) is due NEXT CLASS on 2/17
   - The 2D Game is DUE 3/17
-- [Lab 1](Assignments/Labs/Lab_1.md) is due 2/17
-- [Lab 2](Assignments/Labs/Lab_2.md) is due 2/24
-
-- THERE IS NO IN PERSON CLASS 2/17. Stay tuned for an announcement with a video recording.
+- Keep owkring on the labs!
+  - [Lab 1](Assignments/Labs/Lab_1.md) is due 2/17
+  - [Lab 2](Assignments/Labs/Lab_2.md) is due 2/24
 - Here are the recordings:
-- [2D Genres](https://youtube.com/live/yrTvBPAcALI?feature=share)
-- [Lab 1 Review](https://youtube.com/live/ckjou1uWdmA?feature=share)
-- [Hello Godot](https://youtube.com/live/B7TpNjIVCc4?feature=share)
+  - [2D Genres](https://youtube.com/live/yrTvBPAcALI?feature=share)
+  - [Lab 1 Review](https://youtube.com/live/ckjou1uWdmA?feature=share)
+  - [Hello Godot](https://youtube.com/live/B7TpNjIVCc4?feature=share)
+  - [Creating and Sharing Github Repos](https://youtube.com/live/kBJUp59F6DQ?feature=share)
 
 
 # SVA Game Design Fundamentals Syllabus
