@@ -89,13 +89,20 @@ Break
 ---
 
 ## Week 4 2/10 - Getting Started in 2D
-- Hello Godot
+- Hello Godot- Hello Godot
   - [Video turotial on Github and Godot](https://www.youtube.com/watch?v=E1srposxZWo)
   - Lab 1 review
   - Nodes and Scenes
 
 - [Genres in 2D](https://docs.google.com/presentation/d/1ai6uhVzULKb22SbQ3zjPipXxItFrU2wMqn8B6BJ_dQM/edit)
   - [2D Game Brainstorming](/Resources/2D_Brainstorming.md)
+
+- [Coding Fundamentals](Resources/Coding_Fundamentals.md)
+  - Scripts and properties
+  - Variables
+
+- [Conditionals, Input](https://www.youtube.com/watch?v=PyADIUsLobs)
+
 
 - **Homework: [2D Game Concept](/Assignments/2D/2D_Concept.md)**
 - **Homework: [2D Game](/Assignments/2D/2DGame.md)**
