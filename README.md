@@ -100,8 +100,8 @@ Break
 - [Coding Fundamentals](Resources/Coding_Fundamentals.md)
   - Scripts and properties
   - Variables
-
-- [Conditionals, Input](https://www.youtube.com/watch?v=PyADIUsLobs)
+- [Conditionals](Resources/ConditionalDiagram.png)
+- [Conditionals, Input Lecture](https://www.youtube.com/watch?v=PyADIUsLobs)
 
 
 - **Homework: [2D Game Concept](/Assignments/2D/2D_Concept.md)**
