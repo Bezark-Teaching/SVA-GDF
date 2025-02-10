@@ -31,7 +31,7 @@ The  work of the class consists of the following:
 | [Tabletop Game](/Assignments/Tabletop/Tabletop.md)                             | A playable prototype of a tabletop game                                    | 2/3                          | 16            |
 | [Labs 1-4](/Assignments/Labs/)                                                 | 4 short coding assignments designed to build proficiency. 6 points each.   | 2/17, 2/24, 3/3 & 3/24       | 24            |
 | [2D Game Design Document](/Assignments/2D/2D_Concept.md)                       | A brief paper describing your concept for the 2D Game                      | 2/17                         | 10            |
-| [2D Game](/Assignments/2D/2DGame.md)                                           | A playable prototype of a 2D game                                          | 3/10                         | 25            |
+| [2D Game](/Assignments/2D/2DGame.md)                                           | A playable prototype of a 2D game                                          | 3/17                         | 25            |
 | [Capstone Concept Presentation](/Assignments/Capstone/Capstone_Concept.md)     | A brief Presentation describing your concept for the 2D Game               | 3/31                         | 10            |
 | [Game Review](/Assignments/Game_Review.md)                                     | Play one of the suggested games and review it!                             | 4/28                         | 10            |
 | [Capstone Game](/Assignments/Capstone/Capstone_Game.md)                        | A polished game. Can be an evolution of the 2D game or something new.      | Final                        | 30            |
@@ -180,7 +180,7 @@ https://youtube.com/live/ckjou1uWdmA?feature=share
 
 ## Week 8 3/10 - Playtesting / Hello 3D
 - Playtesting
-- **DUE: 2D Game**
+
 - Hello 3D
 
 ---
@@ -197,6 +197,9 @@ https://youtube.com/live/ckjou1uWdmA?feature=share
 - **Homework: [Lab 3](/Assignments/Labs/Lab_4.md)**
 - **Homework: [Capstone Game](/Assignments/Capstone/Capstone_Game)** 
 - **Homework: [Capstone Presentation](/Assignments/Capstone/Capstone_Concept)** 
+
+- **DUE: 2D Game**
+
 
 ## Week 10 3/24 - Advanced 3D Topics
 - Materials, Models, Lights, Fog, Camera Attributes
