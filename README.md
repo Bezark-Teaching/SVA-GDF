@@ -1,8 +1,8 @@
+# Top of Mind
+- We have started the 2D Game Project!
 
-# SVA COOL Game Design Fundamentals Syllabus
 
-new thing
-
+# SVA Game Design Fundamentals Syllabus
 
 - **Course Code:** DSD 4721 
 - **Schedule:** Mon 3:20-6:10pm
