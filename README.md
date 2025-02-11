@@ -3,7 +3,7 @@
 - We have started the [2D Game Project](Assignments/2D/2DGame.md)!
   - The [2D Concept Paper](Assignments/2D/2D_Concept.md) is due NEXT CLASS on 2/17
   - The 2D Game is DUE 3/17
-- Keep owkring on the labs!
+- Keep working on the labs!
   - [Lab 1](Assignments/Labs/Lab_1.md) is due 2/17
   - [Lab 2](Assignments/Labs/Lab_2.md) is due 2/24
 - Here are the recordings:
