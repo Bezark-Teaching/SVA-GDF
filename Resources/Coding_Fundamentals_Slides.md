@@ -100,6 +100,8 @@ You can make your own functions, or use functions built in to your environment.
    This is custom made for godot, but is very similar to python.
 - Scripts are attached to nodes.
 
+---
+
 #### There are 3 fundamental functions that all nodes have.
    _ready()
     - executes when the node is loaded into the scene for the first time
