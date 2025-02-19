@@ -1,5 +1,12 @@
 # Top of Mind
 - THERE IS NO IN PERSON CLASS 2/17. Stay tuned for an announcement with a video recording.
+  - [Video turotial on Github and Godot](https://www.youtube.com/watch?v=E1srposxZWo)
+  - [Introduction to Coding](https://www.youtube.com/live/CAY3K7NxOXE)
+  - [Conditionals and Input](https://www.youtube.com/watch?v=PyADIUsLobs)
+
+  - [9 Ways to Actually Get Game Dev Done On Time](https://www.youtube.com/watch?v=pAYi-kbayYY)
+
+
 - We have started the [2D Game Project](Assignments/2D/2DGame.md)!
   - The [2D Concept Paper](Assignments/2D/2D_Concept.md) is due NEXT CLASS on 2/17
   - The 2D Game is DUE 3/17
