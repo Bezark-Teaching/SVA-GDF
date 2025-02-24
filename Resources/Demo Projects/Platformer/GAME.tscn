@@ -1,6 +1,6 @@
 [gd_scene load_steps=18 format=3 uid="uid://cd1uqd3htnuxl"]
 
-[ext_resource type="Texture2D" uid="uid://dpxf7k1ytye7p" path="res://Assets/Terrain/Terrain (16x16).png" id="1_ix55x"]
+[ext_resource type="Texture2D" uid="uid://d4a5cwsivxomh" path="res://Assets/Terrain/Terrain (16x16).png" id="1_ix55x"]
 [ext_resource type="PackedScene" uid="uid://bosxdi82u7c4c" path="res://background/parallax_bg.tscn" id="1_le68v"]
 [ext_resource type="PackedScene" uid="uid://bi4vnytdmm0g2" path="res://Player/Player.tscn" id="2_3wvxs"]
 [ext_resource type="Script" path="res://Obstacles/Killbox.gd" id="3_5pple"]
@@ -9,7 +9,7 @@
 [ext_resource type="PackedScene" uid="uid://isi15leghbp7" path="res://Obstacles/Saws/saw.tscn" id="4_6bagl"]
 [ext_resource type="PackedScene" uid="uid://cf88d6uciisll" path="res://Obstacles/Saws/moving_saw.tscn" id="5_bl03l"]
 [ext_resource type="PackedScene" uid="uid://5bjk586as2pg" path="res://Fruit/fruit.tscn" id="5_dg3k3"]
-[ext_resource type="AudioStream" uid="uid://gunv00cij80t" path="res://audio/music.ogg" id="6_kuci6"]
+[ext_resource type="AudioStream" uid="uid://blpvog7vvasdn" path="res://audio/music.ogg" id="6_kuci6"]
 [ext_resource type="Script" path="res://Obstacles/Falling Platforms/FallingPlatforms.gd" id="7_3dw0w"]
 [ext_resource type="PackedScene" uid="uid://y6yngbo8urtf" path="res://Obstacles/Falling Platforms/falling_platform.tscn" id="7_upb8s"]
 

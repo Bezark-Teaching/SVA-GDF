@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://2bykik1g25kq"]
+
+[ext_resource type="Script" path="res://character_controller.gd" id="1_8qbet"]
+[ext_resource type="PackedScene" uid="uid://br1yxuq4pn0ev" path="res://icon.tscn" id="1_tqufh"]
+
+[node name="Controller" type="Node2D"]
+script = ExtResource("1_8qbet")
+
+[node name="StartingKnight" parent="." groups=["knights"] instance=ExtResource("1_tqufh")]
+
+[node name="Icon2" parent="." groups=["knights"] instance=ExtResource("1_tqufh")]
+position = Vector2(395, 388)
+
+[node name="Icon3" parent="." groups=["knights"] instance=ExtResource("1_tqufh")]
+position = Vector2(406, 559)
