@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://dbqe62kfwi7nf"]
+
+[ext_resource type="Script" path="res://carrots.gd" id="1_4h6am"]
+[ext_resource type="Texture2D" uid="uid://y4e0smspgeil" path="res://Sprites/Carrots.png" id="2_a1r5g"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_p6ti3"]
+radius = 23.2744
+height = 157.345
+
+[node name="Carrots" type="Node2D"]
+script = ExtResource("1_4h6am")
+
+[node name="Carrots" type="Sprite2D" parent="."]
+scale = Vector2(0.290021, 0.290021)
+texture = ExtResource("2_a1r5g")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+rotation = -0.86187
+shape = SubResource("CapsuleShape2D_p6ti3")
+
+[connection signal="area_entered" from="Area2D" to="." method="_on_area_2d_area_entered"]

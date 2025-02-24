@@ -1,8 +1,19 @@
-[gd_scene load_steps=4 format=3 uid="uid://cy21rv8yp550j"]
+[gd_scene load_steps=7 format=3 uid="uid://cy21rv8yp550j"]
 
 [ext_resource type="Texture2D" uid="uid://7yx2n3wl3h4w" path="res://shaun.png" id="1_2vrij"]
 [ext_resource type="Script" path="res://shaun.gd" id="2_5cyip"]
 [ext_resource type="Texture2D" uid="uid://qdpx4glebjb3" path="res://icon.svg" id="3_6ldo7"]
+[ext_resource type="FontFile" uid="uid://cx4tbtyuxmha3" path="res://Shooting Star.ttf" id="4_rjdvg"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_3kins"]
+font = ExtResource("4_rjdvg")
+font_size = 128
+font_color = Color(1, 0.411765, 0.466667, 1)
+outline_size = 7
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_o11gs"]
+radius = 123.27
+height = 798.972
 
 [node name="Shaun" type="Sprite2D"]
 position = Vector2(4, -2)
@@ -13,3 +24,22 @@ script = ExtResource("2_5cyip")
 [node name="Icon" type="Sprite2D" parent="."]
 position = Vector2(-43.3728, -111.856)
 texture = ExtResource("3_6ldo7")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(0, -4.29153e-06)
+scale = Vector2(1, 1)
+
+[node name="Label" type="Label" parent="."]
+offset_left = -1157.0
+offset_top = -589.0
+offset_right = -534.0
+offset_bottom = -297.0
+text = "SCORE : 100"
+label_settings = SubResource("LabelSettings_3kins")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("CapsuleShape2D_o11gs")
+
+[connection signal="area_entered" from="Area2D" to="." method="_on_area_2d_area_entered"]

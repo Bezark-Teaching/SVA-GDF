@@ -1,0 +1,40 @@
+[gd_scene load_steps=4 format=3 uid="uid://ogbda3wbatfi"]
+
+[ext_resource type="PackedScene" uid="uid://c5psw5ngry0no" path="res://platform.tscn" id="1_7tsi0"]
+[ext_resource type="PackedScene" uid="uid://clum42e1xqrnx" path="res://bouncy_carrot.tscn" id="2_n07nf"]
+[ext_resource type="PackedScene" uid="uid://cdbswedf7c06v" path="res://character_body_2d.tscn" id="3_wqcc0"]
+
+[node name="Platformer" type="Node2D"]
+
+[node name="Level" type="Node2D" parent="."]
+position = Vector2(55, 283)
+
+[node name="Platform" parent="Level" instance=ExtResource("1_7tsi0")]
+
+[node name="Platform2" parent="Level" instance=ExtResource("1_7tsi0")]
+position = Vector2(263, 3)
+
+[node name="Platform3" parent="Level" instance=ExtResource("1_7tsi0")]
+position = Vector2(502, 82)
+
+[node name="BouncyCarrot" parent="." instance=ExtResource("2_n07nf")]
+
+[node name="BouncyCarrot2" parent="." instance=ExtResource("2_n07nf")]
+
+[node name="BouncyCarrot3" parent="." instance=ExtResource("2_n07nf")]
+
+[node name="BouncyCarrot4" parent="." instance=ExtResource("2_n07nf")]
+
+[node name="BouncyCarrot5" parent="." instance=ExtResource("2_n07nf")]
+
+[node name="BouncyCarrot6" parent="." instance=ExtResource("2_n07nf")]
+
+[node name="BouncyCarrot7" parent="." instance=ExtResource("2_n07nf")]
+
+[node name="BouncyCarrot8" parent="." instance=ExtResource("2_n07nf")]
+
+[node name="BouncyCarrot9" parent="." instance=ExtResource("2_n07nf")]
+position = Vector2(164, -27)
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("3_wqcc0")]
+position = Vector2(168, 172)

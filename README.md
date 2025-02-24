@@ -1,10 +1,11 @@
 # Top of Mind
-- THERE IS NO IN PERSON CLASS 2/17. Stay tuned for an announcement with a video recording.
-  - [Video turotial on Github and Godot](https://www.youtube.com/watch?v=E1srposxZWo)
-  - [Introduction to Coding](https://www.youtube.com/live/CAY3K7NxOXE)
-  - [Conditionals and Input](https://www.youtube.com/watch?v=PyADIUsLobs)
-
-  - [9 Ways to Actually Get Game Dev Done On Time](https://www.youtube.com/watch?v=pAYi-kbayYY)
+- SPRING BREAK IS NEXT WEEK
+  - Please review the [2/24 Lecture](https://youtube.com/live/-uiG2o8pCE4)
+  - Previous COntent:
+    - [Video turotial on Github and Godot](https://www.youtube.com/watch?v=E1srposxZWo)
+    - [Introduction to Coding](https://www.youtube.com/live/CAY3K7NxOXE)
+    - [Conditionals and Input](https://www.youtube.com/watch?v=PyADIUsLobs)
+    - [9 Ways to Actually Get Game Dev Done On Time](https://www.youtube.com/watch?v=pAYi-kbayYY)
 
 
 - We have started the [2D Game Project](Assignments/2D/2DGame.md)!

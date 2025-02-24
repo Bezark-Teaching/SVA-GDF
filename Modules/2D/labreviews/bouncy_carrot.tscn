@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://clum42e1xqrnx"]
+
+[ext_resource type="Texture2D" uid="uid://y4e0smspgeil" path="res://Sprites/Carrots.png" id="1_t1gqc"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_q5h1g"]
+bounce = 1.0
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_qg0g7"]
+height = 93.9816
+
+[node name="BouncyCarrot" type="RigidBody2D"]
+position = Vector2(152, 33)
+physics_material_override = SubResource("PhysicsMaterial_q5h1g")
+
+[node name="Carrots" type="Sprite2D" parent="."]
+rotation = -0.161861
+scale = Vector2(0.159563, 0.159563)
+texture = ExtResource("1_t1gqc")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+rotation = -1.00756
+shape = SubResource("CapsuleShape2D_qg0g7")
