@@ -125,50 +125,56 @@ https://youtube.com/live/ckjou1uWdmA?feature=share
     - [Past Lecture](https://www.youtube.com/watch?v=PyADIUsLobs)
 
 
-- **Homework: [2D Game Concept](/Assignments/2D/2D_Concept.md)**
+- Git Collaboration and Branches
+
 - **Homework: [2D Game](/Assignments/2D/2DGame.md)**
+- **Homework: [2D Game Concept](/Assignments/2D/2D_Concept.md)**
 
 ## Week 5 2/17 - Coding Fundamentals
 
 **NO IN PERSON CLASS - Will be a video lecture**
-
+### Resources
 - [Lecture Part 1](https://youtube.com/live/_B1OV87gQ8E)
 - [Lecture Part 2](https://youtube.com/live/trp4iZQXosc)
 - [Coding Fundamentals](Resources/Coding_Fundamentals.md)
   - Scripts and properties
   - Variables
 - [Conditionals, Input](https://www.youtube.com/watch?v=PyADIUsLobs)
-- **DUE: Lab 1**
 
+### Assignments
+- **DUE: Lab 1**
 - ****DUE: [2D Game Concept](/Assignments/2D/2D_Concept.md)****
 - **Homework: [Lab 2](/Assignments/Labs/Lab_2.md)**
 
  
 ## Week 6 2/24 – Input, Interactions and Patterns
 
-- [Lecture](https://youtube.com/live/hgKD1UNwm_k)
 - Lab Review - 20
 
 - Input map
 
-- Using Nodes together
+- Using Nodes Together Controllable Character
+  - Camera
   - Area2D
-  - Camera2D
-  - Timer 
   - ChgaracterBody
   - CollisionShapes
 
 - Functions/Signals
 
-- Git Collaboration and Branches
 
-- [2D Components](/Modules/2D/2D_Components/)
 - Common Patterns (Time permitting)
   - Items 
   - Enemies
   - Checkpoints
   - Respawns
   - Killboxes
+
+
+### Resources
+- [Lecture](https://youtube.com/live/hgKD1UNwm_k)
+- [2D Components](/Modules/2D/2D_Components/)
+
+### Assignments
 - **Homework: [Lab 3](/Assignments/Labs/Lab_3.md)**
 - **DUE: Lab 2**
 
