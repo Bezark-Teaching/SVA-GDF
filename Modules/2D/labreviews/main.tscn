@@ -1,0 +1,25 @@
+[gd_scene load_steps=4 format=3 uid="uid://bqj10w4iy8cvt"]
+
+[ext_resource type="Texture2D" uid="uid://dmelu7ees2r0a" path="res://Sprites/ATTACK 1.png" id="1_3jrsn"]
+[ext_resource type="Texture2D" uid="uid://bw8k5rbogx17v" path="res://Sprites/kidpix-1740430049080.png" id="2_baejw"]
+[ext_resource type="PackedScene" uid="uid://cy21rv8yp550j" path="res://shaun.tscn" id="3_i5ks7"]
+
+[node name="Node2D" type="Node2D"]
+position = Vector2(54, 186)
+
+[node name="Attack1" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(531, 182)
+scale = Vector2(1.50028, 1.50028)
+texture = ExtResource("1_3jrsn")
+region_enabled = true
+region_rect = Rect2(30, 35.75, 47.5, 60.25)
+
+[node name="Kidpix-1740430049080" type="Sprite2D" parent="."]
+position = Vector2(461, 368)
+scale = Vector2(0.438063, 0.438063)
+texture = ExtResource("2_baejw")
+region_enabled = true
+region_rect = Rect2(0, 0, 520.006, 370.523)
+
+[node name="Shaun" parent="." instance=ExtResource("3_i5ks7")]

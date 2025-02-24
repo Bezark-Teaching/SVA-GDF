@@ -178,7 +178,11 @@ https://youtube.com/live/ckjou1uWdmA?feature=share
 - **Homework: [Lab 3](/Assignments/Labs/Lab_3.md)**
 - **DUE: Lab 2**
 
-## Week 7 3/3 - Level, Environment and UI Design
+---
+## SPRING BREAK
+---
+
+## Week 7 3/10 - Level, Environment and UI Design
 
 - Area2D Review
 
@@ -202,14 +206,13 @@ https://youtube.com/live/ckjou1uWdmA?feature=share
 
 --- SPRING BREAK!!! ---
 
-## Week 8 3/10 - Playtesting / Hello 3D
-- Playtesting
-
+## Week 8 3/17 - Playtesting / Hello 3D
+- **IN CLASS PLAYTEST - HAVE A GAME TO PLAY!**
 - Hello 3D
 
 ---
 
-## Week 9 3/17 - 3D Environments
+## Week 9 3/24 - 3D Environments
 
 - [Capstone Brainstorm](/Modules/3D/CapstoneBrainstorm.md)
 
@@ -222,22 +225,16 @@ https://youtube.com/live/ckjou1uWdmA?feature=share
 - **Homework: [Capstone Game](/Assignments/Capstone/Capstone_Game)** 
 - **Homework: [Capstone Presentation](/Assignments/Capstone/Capstone_Concept)** 
 
-- **DUE: 2D Game**
+- **REALLY DUE: 2D Game**
+- **DUE: Lab 4**
 
+## Week 11 3/31 - Advanced 3D Topics and Capstone Presentations
 
-## Week 10 3/24 - Advanced 3D Topics
 - Materials, Models, Lights, Fog, Camera Attributes
 
 - Animated Characters
   - [Mixamo](https://www.mixamo.com)
   - [Character Animation COmbiner](https://nilooy.github.io/character-animation-combiner/)
-
-
-- Physics/Sandbox
-- **DUE: Lab 4**
-
-## Week 11 3/31 - Review and Capstone Presentations
-
 
 - Review
 - Advanced Topics
