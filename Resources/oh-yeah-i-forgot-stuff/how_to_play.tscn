@@ -1,0 +1,30 @@
+[gd_scene load_steps=2 format=3 uid="uid://d3qbb3jyeuywe"]
+
+[ext_resource type="Script" path="res://how_to_play.gd" id="1_w31c3"]
+
+[node name="How to play" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_w31c3")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 318.0
+offset_top = 60.0
+offset_right = 389.0
+offset_bottom = 83.0
+text = "Dont die!"
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 357.0
+offset_top = 134.0
+offset_right = 427.0
+offset_bottom = 165.0
+text = "Go back"
+
+[connection signal="button_down" from="Button" to="." method="_on_button_button_down"]

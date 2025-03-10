@@ -11,9 +11,13 @@ config_version=5
 [application]
 
 config/name="Oh yeah i forgot stuff"
-run/main_scene="res://physics.tscn"
+run/main_scene="res://Main Menu.tscn"
 config/features=PackedStringArray("4.3", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[display]
+
+window/stretch/mode="canvas_items"
 
 [input]
 

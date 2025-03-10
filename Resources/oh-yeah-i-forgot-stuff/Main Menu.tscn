@@ -1,0 +1,45 @@
+[gd_scene load_steps=3 format=3 uid="uid://c7jl8uoiegxgr"]
+
+[ext_resource type="Script" path="res://control.gd" id="1_pphjp"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_1v2ts"]
+font_size = 48
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_pphjp")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -183.5
+offset_top = -51.0
+offset_right = 183.5
+offset_bottom = 51.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = "MY COOL GAME"
+label_settings = SubResource("LabelSettings_1v2ts")
+
+[node name="Button" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "START GAME"
+
+[node name="Tut" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "How to Play"
+
+[connection signal="button_down" from="VBoxContainer/Button" to="." method="_on_button_button_down"]
+[connection signal="button_down" from="VBoxContainer/Tut" to="." method="_on_tut_button_down"]

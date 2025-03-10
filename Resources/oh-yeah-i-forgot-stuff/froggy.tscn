@@ -1,4 +1,4 @@
-[gd_scene load_steps=25 format=3 uid="uid://2ais5pkhdjrq"]
+[gd_scene load_steps=27 format=3 uid="uid://2ais5pkhdjrq"]
 
 [ext_resource type="Script" path="res://character_body_2d.gd" id="1_5igis"]
 [ext_resource type="Texture2D" uid="uid://dcdomkc80q4fm" path="res://frog_spritesheet.png" id="2_8jbh8"]
@@ -51,6 +51,14 @@ region = Rect2(256, 128, 128, 128)
 [sub_resource type="AtlasTexture" id="AtlasTexture_u3b4c"]
 atlas = ExtResource("3_jdrqh")
 region = Rect2(384, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gxloe"]
+atlas = ExtResource("2_8jbh8")
+region = Rect2(0, 64, 64, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8abxq"]
+atlas = ExtResource("2_8jbh8")
+region = Rect2(64, 64, 64, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_i261l"]
 atlas = ExtResource("2_8jbh8")
@@ -135,6 +143,17 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
+"texture": SubResource("AtlasTexture_gxloe")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8abxq")
+}],
+"loop": false,
+"name": &"tak_damage",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
 "texture": SubResource("AtlasTexture_i261l")
 }, {
 "duration": 1.0,
@@ -170,6 +189,7 @@ script = ExtResource("1_5igis")
 texture_filter = 1
 position = Vector2(14, -1)
 sprite_frames = SubResource("SpriteFrames_st34i")
+animation = &"tak_damage"
 autoplay = "default"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
@@ -180,4 +200,18 @@ shape = SubResource("RectangleShape2D_52mta")
 position = Vector2(0, -40)
 zoom = Vector2(5, 5)
 
+[node name="Health" type="ProgressBar" parent="."]
+offset_left = -104.0
+offset_top = -99.0
+offset_right = -52.0
+offset_bottom = -91.0
+max_value = 5.0
+step = 1.0
+value = 5.0
+show_percentage = false
+
+[node name="Timer" type="Timer" parent="."]
+autostart = true
+
 [connection signal="animation_finished" from="Animations" to="." method="_on_animations_animation_finished"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

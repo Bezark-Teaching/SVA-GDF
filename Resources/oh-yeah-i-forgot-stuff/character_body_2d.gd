@@ -1,10 +1,13 @@
 extends CharacterBody2D
 
+var health = 5
+
 
 const SPEED = 300.0
 const JUMP_VELOCITY = -400.0
 
 var attacking = false
+var taking_damage = false
 
 func _physics_process(delta):
 	
@@ -21,7 +24,7 @@ func _physics_process(delta):
 	var direction = Input.get_axis("ui_left", "ui_right")
 	
 	
-	if not attacking:
+	if not attacking or not taking_damage:
 		if direction:
 			if direction == -1:
 				$Animations.flip_h = true
@@ -50,6 +53,32 @@ func _physics_process(delta):
 	move_and_slide()
 
 
+func take_damage(amount):
+	health -= amount
+	$Health.value = health
+	$Animations.play("tak_damage")
+	print(health)
+	if health <= 0:
+		game_over()
+
+
+func game_over():
+	print("the game is over!")
+	$Health.value = 5
+	get_tree().change_scene_to_file("res://simple_castle.tscn")
+
+
 func _on_animations_animation_finished():
 	if $Animations.animation == "attack":
 		attacking =false
+	if $Animations.animation == "tak_damage":
+		taking_damage =false
+	
+
+
+func _on_area_2d_body_entered(body):
+	pass # Replace with function body.
+
+
+func _on_timer_timeout():
+	take_damage(1)

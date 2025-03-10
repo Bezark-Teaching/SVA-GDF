@@ -1,10 +1,10 @@
 [gd_scene load_steps=8 format=3 uid="uid://csipwgfy03rel"]
 
 [ext_resource type="Script" path="res://CharacterBody2D.gd" id="1_km8iq"]
-[ext_resource type="Texture2D" uid="uid://5syjbyvdqbtu" path="res://Assets/icon.svg" id="2_q24wf"]
-[ext_resource type="AudioStream" uid="uid://cp1jmfd8sqmbn" path="res://Assets/woosh.mp3" id="3_cplck"]
+[ext_resource type="Texture2D" uid="uid://d1rpapos7fxvj" path="res://Assets/icon.svg" id="2_q24wf"]
+[ext_resource type="AudioStream" uid="uid://s0w2p0jji6xs" path="res://Assets/woosh.mp3" id="3_cplck"]
 [ext_resource type="PackedScene" uid="uid://bbrc4r5uir85h" path="res://Assets/Items/fruit.tscn" id="3_ww4ir"]
-[ext_resource type="AudioStream" uid="uid://ctget2bow8wd7" path="res://Assets/music.mp3" id="4_jrgdm"]
+[ext_resource type="AudioStream" uid="uid://chvrpi3lgfr2x" path="res://Assets/music.mp3" id="4_jrgdm"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_u7sp8"]
 size = Vector2(128, 130)
@@ -66,7 +66,8 @@ scale = Vector2(3.71875, 3.71875)
 position = Vector2(665, 101)
 scale = Vector2(3.71875, 3.71875)
 
-[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+[node name="AudioStreamPlayer" type="AudioStreamPlayer2D" parent="."]
+position = Vector2(1298, 214)
 stream = ExtResource("4_jrgdm")
 volume_db = -15.898
 autoplay = true

@@ -1,10 +1,10 @@
 [gd_scene load_steps=7 format=3 uid="uid://chw0ab8xvfobd"]
 
-[ext_resource type="Texture2D" uid="uid://7gxgwaqrg1ml" path="res://Legacy_Underwater/far.png" id="1_yiojf"]
-[ext_resource type="Texture2D" uid="uid://bqccstqmy5fed" path="res://Legacy_Underwater/sand.png" id="2_4roo1"]
-[ext_resource type="Texture2D" uid="uid://c2ibr8hxnlbe3" path="res://Legacy_Underwater/foregound-merged.png" id="3_6fyki"]
-[ext_resource type="Texture2D" uid="uid://b2e8d8orpvhqw" path="res://Legacy_Underwater/foreground-1.png" id="4_l4swx"]
-[ext_resource type="Texture2D" uid="uid://ccq73xvnaav7g" path="res://Legacy_Underwater/foreground-2.png" id="5_6hhnk"]
+[ext_resource type="Texture2D" uid="uid://5n8dehuw63p" path="res://Legacy_Underwater/far.png" id="1_yiojf"]
+[ext_resource type="Texture2D" uid="uid://dj23ywxn3ice0" path="res://Legacy_Underwater/sand.png" id="2_4roo1"]
+[ext_resource type="Texture2D" uid="uid://k38k3iqdgrji" path="res://Legacy_Underwater/foregound-merged.png" id="3_6fyki"]
+[ext_resource type="Texture2D" uid="uid://cfxq6soahpsrp" path="res://Legacy_Underwater/foreground-1.png" id="4_l4swx"]
+[ext_resource type="Texture2D" uid="uid://cak123pcgnbry" path="res://Legacy_Underwater/foreground-2.png" id="5_6hhnk"]
 [ext_resource type="PackedScene" uid="uid://cj317uaaymaq0" path="res://moving_camera_2d.tscn" id="6_8ikr0"]
 
 [node name="Node2D" type="Node2D"]
