@@ -205,8 +205,6 @@ https://youtube.com/live/ckjou1uWdmA?feature=share
 - **DUE: Lab 3**
 
 
---- SPRING BREAK!!! ---
-
 ## Week 8 3/17 - Playtesting / Hello 3D
 - **IN CLASS PLAYTEST - HAVE A GAME TO PLAY!**
 - Hello 3D
