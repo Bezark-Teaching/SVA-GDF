@@ -1,0 +1,41 @@
+[gd_scene load_steps=6 format=3 uid="uid://bxm0vxc46bygw"]
+
+[ext_resource type="PackedScene" uid="uid://bt8t0nd5tcb5n" path="res://platform.tscn" id="1_lkc36"]
+[ext_resource type="Texture2D" uid="uid://bgvah4ltq1qp" path="res://icon.svg" id="2_doj77"]
+[ext_resource type="PackedScene" uid="uid://2ais5pkhdjrq" path="res://froggy.tscn" id="3_k1qt7"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_bq6aa"]
+bounce = 0.79
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_0ngqj"]
+radius = 35.0
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Platform" parent="." instance=ExtResource("1_lkc36")]
+position = Vector2(39, 8)
+
+[node name="Platform2" parent="." instance=ExtResource("1_lkc36")]
+position = Vector2(389, -16)
+
+[node name="Platform3" parent="." instance=ExtResource("1_lkc36")]
+position = Vector2(139, 26)
+
+[node name="Platform4" parent="." instance=ExtResource("1_lkc36")]
+position = Vector2(258, 16)
+
+[node name="RigidBody2D" type="RigidBody2D" parent="."]
+position = Vector2(571, -197)
+mass = 138.95
+physics_material_override = SubResource("PhysicsMaterial_bq6aa")
+
+[node name="Icon" type="Sprite2D" parent="RigidBody2D"]
+position = Vector2(1, 3)
+scale = Vector2(0.40625, 0.40625)
+texture = ExtResource("2_doj77")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RigidBody2D"]
+shape = SubResource("CircleShape2D_0ngqj")
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("3_k1qt7")]
+position = Vector2(78, -26)

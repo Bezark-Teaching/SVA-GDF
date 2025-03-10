@@ -1,4 +1,7 @@
 # Top of Mind
+
+- [Working with Assets](https://youtube.com/live/lHuHChVD0QI)
+
 - SPRING BREAK IS NEXT WEEK
   - Please review the [2/24 Lecture](https://youtube.com/live/-uiG2o8pCE4)
   - Previous COntent:
