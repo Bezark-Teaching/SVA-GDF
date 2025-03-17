@@ -45,4 +45,3 @@ func _on_vision_body_exited(body):
 		state = "idle"
 		velocity = Vector2(0.,0.)
 		print("changing state to idle")
-

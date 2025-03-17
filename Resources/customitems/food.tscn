@@ -1,0 +1,56 @@
+[gd_scene load_steps=7 format=3 uid="uid://dt1qsgm4gncan"]
+
+[ext_resource type="Script" path="res://food.gd" id="1_pohk7"]
+[ext_resource type="Texture2D" uid="uid://c7bipj2pu52h3" path="res://Ghostpixxells_pixelfood/05_apple_pie.png" id="2_v8piq"]
+[ext_resource type="Texture2D" uid="uid://c3faeqlq1de77" path="res://Ghostpixxells_pixelfood/07_bread.png" id="3_5fm71"]
+[ext_resource type="Texture2D" uid="uid://cep5sxoujjbpv" path="res://Ghostpixxells_pixelfood/01_dish.png" id="4_lu35j"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_kktf7"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_v8piq")
+}],
+"loop": true,
+"name": &"bagel",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"new_animation",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_5fm71")
+}],
+"loop": true,
+"name": &"pizza",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_lu35j")
+}],
+"loop": true,
+"name": &"plate",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_v8piq"]
+radius = 115.004
+
+[node name="Food" type="Node2D"]
+script = ExtResource("1_pohk7")
+
+[node name="Icon" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, 1)
+sprite_frames = SubResource("SpriteFrames_kktf7")
+animation = &"pizza"
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("CircleShape2D_v8piq")
+
+[connection signal="input_event" from="Area2D" to="." method="_on_area_2d_input_event"]

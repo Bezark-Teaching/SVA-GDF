@@ -1,0 +1,37 @@
+[gd_scene load_steps=6 format=3 uid="uid://b6v3lqr4ruuwx"]
+
+[ext_resource type="Script" path="res://recipe_checker.gd" id="1_b7lej"]
+[ext_resource type="PackedScene" uid="uid://m55474d8b8ky" path="res://recipe.tscn" id="2_1353h"]
+[ext_resource type="PackedScene" uid="uid://dt1qsgm4gncan" path="res://food.tscn" id="2_u3vat"]
+[ext_resource type="Script" path="res://conveyor_belt.gd" id="2_x32fm"]
+[ext_resource type="Texture2D" uid="uid://brxs0xhwbb4pn" path="res://Ghostpixxells_pixelfood/06_apple_pie_dish.png" id="3_x32fm"]
+
+[node name="RecipeChecker" type="Node2D"]
+script = ExtResource("1_b7lej")
+
+[node name="ConveyorBelt" type="Node2D" parent="."]
+position = Vector2(219, 236)
+script = ExtResource("2_x32fm")
+possible_foods = Array[String](["bagel", "pizza", "plate"])
+
+[node name="Food" parent="ConveyorBelt" instance=ExtResource("2_u3vat")]
+position = Vector2(213, 229)
+food_name = "bagel"
+
+[node name="Food2" parent="ConveyorBelt" instance=ExtResource("2_u3vat")]
+position = Vector2(503, 226)
+food_name = "bagel"
+
+[node name="Food3" parent="ConveyorBelt" instance=ExtResource("2_u3vat")]
+position = Vector2(805, 214)
+food_name = "plate"
+
+[node name="Recipes" type="Node" parent="."]
+
+[node name="Bagels" parent="Recipes" instance=ExtResource("2_1353h")]
+finished_recipe = ExtResource("3_x32fm")
+ingredients = Array[String](["bagel", "bagel", "plate"])
+
+[node name="Pizza" parent="Recipes" instance=ExtResource("2_1353h")]
+finished_recipe = ExtResource("3_x32fm")
+ingredients = Array[String](["tomato", "cheese", "plate"])

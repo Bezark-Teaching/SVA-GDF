@@ -1,0 +1,46 @@
+[gd_scene load_steps=6 format=3 uid="uid://81qohl3wnr8k"]
+
+[ext_resource type="Texture2D" uid="uid://c1gxul0345vll" path="res://icon.svg" id="1_0e48y"]
+[ext_resource type="Texture2D" uid="uid://bmctfhaoyi1gs" path="res://512x512/512x512 textures (3).png" id="2_epypp"]
+
+[sub_resource type="Gradient" id="Gradient_0e48y"]
+offsets = PackedFloat32Array(0.272727, 0.474026, 0.633117)
+colors = PackedColorArray(0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_epypp"]
+gradient = SubResource("Gradient_0e48y")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_0hol4"]
+particle_flag_disable_z = true
+gravity = Vector3(0, 98, 0)
+scale_min = 0.1
+scale_max = 0.5
+
+[node name="Node2D" type="Node2D"]
+
+[node name="PointLight2D" type="PointLight2D" parent="."]
+position = Vector2(370, 278)
+scale = Vector2(1, 131.625)
+energy = 4.05
+texture = SubResource("GradientTexture1D_epypp")
+
+[node name="PointLight2D2" type="PointLight2D" parent="."]
+visible = false
+position = Vector2(-251, 259)
+scale = Vector2(0.521484, 0.708984)
+color = Color(0.603922, 0.47451, 1, 1)
+energy = 11.21
+texture = ExtResource("2_epypp")
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(423, 341)
+scale = Vector2(2.07031, 2.39453)
+texture = ExtResource("1_0e48y")
+
+[node name="GPUParticles2D" type="GPUParticles2D" parent="."]
+position = Vector2(157, 48)
+amount = 20
+texture = ExtResource("1_0e48y")
+explosiveness = 0.88
+randomness = 0.47
+process_material = SubResource("ParticleProcessMaterial_0hol4")
