@@ -222,23 +222,24 @@ https://youtube.com/live/ckjou1uWdmA?feature=share
 
 - Introduction to 3D in Godot
 - Lighting and Camera Techniques in 3D Games
+
 - Materials, Models
 - Light, Sound
 
-- **Homework: [Lab 3](/Assignments/Labs/Lab_4.md)**
+- Animated Characters
+  - [Mixamo](https://www.mixamo.com)
+  - [Character Animation COmbiner](https://nilooy.github.io/character-animation-combiner/)
+
+- **Homework: [Lab 4](/Assignments/Labs/Lab_4.md)**
 - **Homework: [Capstone Game](/Assignments/Capstone/Capstone_Game)** 
 - **Homework: [Capstone Presentation](/Assignments/Capstone/Capstone_Concept)** 
 
 - **REALLY DUE: 2D Game**
-- **DUE: Lab 4**
 
 ## Week 11 3/31 - Advanced 3D Topics and Capstone Presentations
 
 - Materials, Models, Lights, Fog, Camera Attributes
 
-- Animated Characters
-  - [Mixamo](https://www.mixamo.com)
-  - [Character Animation COmbiner](https://nilooy.github.io/character-animation-combiner/)
 
 - Review
 - Advanced Topics
@@ -246,6 +247,7 @@ https://youtube.com/live/ckjou1uWdmA?feature=share
   - NPCs, Classes and Inheritance...
 
 - Capstone presentations 
+- **DUE: Lab 4**
 
 ## Week 12 4/7 - Capstone Presentations
 

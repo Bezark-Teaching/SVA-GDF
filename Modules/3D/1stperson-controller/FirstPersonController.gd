@@ -44,5 +44,5 @@ func _input(event):
 		
 	if event is InputEventMouseMotion:
 		camera_3d.rotate_x(-event.relative.y *0.005)
-		neck.rotate_y(-event.relative.x*0.005)
+		camera_3d.rotate_y(-event.relative.x*0.005)
 		camera_3d.rotation.x = clamp(camera_3d.rotation.x, deg_to_rad(-30), deg_to_rad(60))
