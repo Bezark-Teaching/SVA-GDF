@@ -1,28 +1,27 @@
 # Top of Mind
 
-- [Capstone Board](https://www.tldraw.com/f/cFgYZSyTLHTx7aH3Tsgk0?d=v0.0.1660.881.d1eKbua0MINKyT3pjk8jm)
+- We are plowing ahead with the [Capstone Game](/Assignments/Capstone/Capstone_Game.md) which is due at the end of the semester.
+- **NEXT WEEK (3/31) WE ARE GIVING OUR [CAPSTONE PRESENTATIONS](/Assignments/Capstone/Capstone_Concept.md)** Please add your name, ideas and a link to your slides on the [Capstone Board](https://www.tldraw.com/f/cFgYZSyTLHTx7aH3Tsgk0?d=v0.0.1660.881.d1eKbua0MINKyT3pjk8jm). Your capstone game can be 2D, 3D or Tabletop; it can be something new or an expansion of something you've done previously and you can work in a group or on your own! 
+- UGH i don't know why the recordings are not working this semsester. So Sorry about thiat. Fortunately here is the recording from last semseter which covers most of the content we talked about in class 
+  - [3D Mega Brain Busting Tutorial](https://www.youtube.com/watch?v=oPJNhc5Ri3I)
+  - [First Person Camera](https://www.youtube.com/watch?v=5Y6QQXKkEpM)
+  - [HELLO 3D](https://www.youtube.com/watch?v=YKmOb1VFDsQ)
+  - [Materials](https://www.youtube.com/live/fMbfi5HR-uc?feature=shared)
 
-- [Recipe Example](https://www.youtube.com/live/CpvQ5_CAS6s)
-- [Advanced 2D and 3D Intro](https://youtube.com/live/CJjN0ByG1mU)
-- [Working with Assets](https://youtube.com/live/lHuHChVD0QI)
-- [Repawning and Game over](https://youtu.be/Y-3AxRxEXwE)
+There are also plenty of other good resources out there:
+- [Brackeys Tutorials](https://www.youtube.com/@Brackeys)
+- [Learn GD SCRIPT](https://www.gdquest.com/news/2022/12/learn-gdscript-app/)
+- [OFFICIAL GODOT TUTORIALS](https://docs.godotengine.org/en/stable/community/tutorials.html)
 
-- SPRING BREAK IS NEXT WEEK
-  - Please review the [2/24 Lecture](https://youtube.com/live/-uiG2o8pCE4)
-  - Previous COntent:
-    - [Video turotial on Github and Godot](https://www.youtube.com/watch?v=E1srposxZWo)
-    - [Introduction to Coding](https://www.youtube.com/live/CAY3K7NxOXE)
-    - [Conditionals and Input](https://www.youtube.com/watch?v=PyADIUsLobs)
-    - [9 Ways to Actually Get Game Dev Done On Time](https://www.youtube.com/watch?v=pAYi-kbayYY)
-
-
-- We have started the [2D Game Project](Assignments/2D/2DGame.md)!
-  - The [2D Concept Paper](Assignments/2D/2D_Concept.md) is due NEXT CLASS on 2/17
-  - The 2D Game is DUE 3/17
-- Keep working on the labs!
-  - [Lab 1](Assignments/Labs/Lab_1.md) is due 2/17
-  - [Lab 2](Assignments/Labs/Lab_2.md) is due 2/24
-- Here are the recordings:
+## Previous Content:
+  - [Recipe Example](https://www.youtube.com/live/CpvQ5_CAS6s)
+  - [Advanced 2D and 3D Intro](https://youtube.com/live/CJjN0ByG1mU)
+  - [Working with Assets](https://youtube.com/live/lHuHChVD0QI)
+  - [Repawning and Game over](https://youtu.be/Y-3AxRxEXwE)
+  - [Video turotial on Github and Godot](https://www.youtube.com/watch?v=E1srposxZWo)
+  - [Introduction to Coding](https://www.youtube.com/live/CAY3K7NxOXE)
+  - [Conditionals and Input](https://www.youtube.com/watch?v=PyADIUsLobs)
+  - [9 Ways to Actually Get Game Dev Done On Time](https://www.youtube.com/watch?v=pAYi-kbayYY)
   - [2D Genres](https://youtube.com/live/yrTvBPAcALI?feature=share)
   - [Lab 1 Review](https://youtube.com/live/ckjou1uWdmA?feature=share)
   - [Hello Godot](https://youtube.com/live/B7TpNjIVCc4?feature=share)
@@ -58,7 +57,7 @@ The  work of the class consists of the following:
 | [Tabletop Game](/Assignments/Tabletop/Tabletop.md)                             | A playable prototype of a tabletop game                                    | 2/3                          | 16            |
 | [Labs 1-4](/Assignments/Labs/)                                                 | 4 short coding assignments designed to build proficiency. 6 points each.   | 2/17, 2/24, 3/3 & 3/24       | 24            |
 | [2D Game Design Document](/Assignments/2D/2D_Concept.md)                       | A brief paper describing your concept for the 2D Game                      | 2/17                         | 10            |
-| [2D Game](/Assignments/2D/2DGame.md)                                           | A playable prototype of a 2D game                                          | Playtest 3/17, Due 3/24            | 25            |
+| [2D Game](/Assignments/2D/2DGame.md)                                           | A playable prototype of a 2D game                                          | Playtest 3/17, Due 3/24      | 25            |
 | [Capstone Concept Presentation](/Assignments/Capstone/Capstone_Concept.md)     | A brief Presentation describing your concept for the 2D Game               | 3/31                         | 10            |
 | [Game Review](/Assignments/Game_Review.md)                                     | Play one of the suggested games and review it!                             | 4/28                         | 10            |
 | [Capstone Game](/Assignments/Capstone/Capstone_Game.md)                        | A polished game. Can be an evolution of the 2D game or something new.      | Final                        | 30            |

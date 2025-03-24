@@ -1,0 +1,38 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://bn00xgsh4mhbh"
+path.s3tc="res://.godot/imported/walldoor_002_Wall2t_metallic.png-Wall2t_roughness.png-f51a1a5af4c6286d422a3a6026ea2e16.s3tc.ctex"
+metadata={
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
+}
+generator_parameters={
+"md5": "6dca4c6bbd387429f27b8ebb92d342dd"
+}
+
+[deps]
+
+source_file="res://gltf/walldoor_002_Wall2t_metallic.png-Wall2t_roughness.png"
+dest_files=["res://.godot/imported/walldoor_002_Wall2t_metallic.png-Wall2t_roughness.png-f51a1a5af4c6286d422a3a6026ea2e16.s3tc.ctex"]
+
+[params]
+
+compress/mode=2
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=true
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=0

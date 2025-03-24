@@ -1,0 +1,24 @@
+[gd_scene load_steps=7 format=3 uid="uid://d4byq4nuiiqyf"]
+
+[ext_resource type="Texture2D" uid="uid://vxbwerpdl8d7" path="res://addons/material/rebar_reinforced_concrete_diff_2k.png" id="1_iutp8"]
+[ext_resource type="Texture2D" uid="uid://dk7tvn0dgegrk" path="res://addons/material/rebar_reinforced_concrete_disp_2k.png" id="2_nfh0k"]
+[ext_resource type="Texture2D" uid="uid://pw4wsp4wqy1u" path="res://addons/material/rebar_reinforced_concrete_nor_gl_2k.png" id="3_vb7c1"]
+[ext_resource type="Texture2D" uid="uid://byq63e1dvmpmo" path="res://addons/material/rebar_reinforced_concrete_rough_2k.png" id="4_noj0n"]
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_pi774"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_avu7i"]
+albedo_texture = ExtResource("1_iutp8")
+roughness_texture = ExtResource("4_noj0n")
+normal_enabled = true
+normal_texture = ExtResource("3_vb7c1")
+heightmap_enabled = true
+heightmap_scale = 0.1
+heightmap_texture = ExtResource("2_nfh0k")
+
+[node name="Node3D" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.0347, 0)
+mesh = SubResource("CylinderMesh_pi774")
+surface_material_override/0 = SubResource("StandardMaterial3D_avu7i")

@@ -24,8 +24,12 @@ func _physics_process(delta):
 	# Get the input direction and handle the movement/deceleration.
 	# As good practice, you should replace UI actions with custom gameplay actions.
 	var input_dir = Input.get_vector("left", "right", "up", "down")
+	print(input_dir)
+
 
 	var direction = (neck.transform.basis * Vector3(input_dir.x, 0, input_dir.y)).normalized()
+	#print(direction)
+	
 	
 	if direction:
 		velocity.x = direction.x * SPEED
@@ -43,6 +47,7 @@ func _input(event):
 		Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
 		
 	if event is InputEventMouseMotion:
+		print(event.relative)
 		camera_3d.rotate_x(-event.relative.y *0.005)
-		camera_3d.rotate_y(-event.relative.x*0.005)
+		neck.rotate_y(-event.relative.x*0.005)
 		camera_3d.rotation.x = clamp(camera_3d.rotation.x, deg_to_rad(-30), deg_to_rad(60))
