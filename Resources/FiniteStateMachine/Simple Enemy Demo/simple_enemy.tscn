@@ -1,7 +1,7 @@
 [gd_scene load_steps=6 format=3 uid="uid://dlu6ai5f346mr"]
 
-[ext_resource type="Script" path="res://Simple Enemy Demo/SimpleEnemy.gd" id="1_quxav"]
-[ext_resource type="Texture2D" uid="uid://dfsywr4iaf8rm" path="res://Simple Enemy Demo/icon.svg" id="2_a027e"]
+[ext_resource type="Script" uid="uid://1ml476c025ar" path="res://Simple Enemy Demo/SimpleEnemy.gd" id="1_quxav"]
+[ext_resource type="Texture2D" uid="uid://uuvv337c3ppw" path="res://Simple Enemy Demo/icon.svg" id="2_a027e"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_5sx8t"]
 size = Vector2(126, 119)

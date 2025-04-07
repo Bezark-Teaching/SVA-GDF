@@ -1,8 +1,8 @@
 [gd_scene load_steps=30 format=3 uid="uid://bm37c3vlntpfp"]
 
-[ext_resource type="Script" path="res://Complex Enemy.gd" id="1_yd604"]
-[ext_resource type="Texture2D" uid="uid://elhe17wqnbtv" path="res://Assets/Main Characters/Ninja Frog/Idle (32x32).png" id="2_t4nli"]
-[ext_resource type="Texture2D" uid="uid://smn4r7nwcqu" path="res://Assets/Main Characters/Ninja Frog/Run (32x32).png" id="3_5spiu"]
+[ext_resource type="Script" uid="uid://c86p38tdd0hn8" path="res://Complex Enemy.gd" id="1_yd604"]
+[ext_resource type="Texture2D" uid="uid://d2nbe2cwvw0st" path="res://Assets/Main Characters/Ninja Frog/Idle (32x32).png" id="2_t4nli"]
+[ext_resource type="Texture2D" uid="uid://c78bqigp4juwp" path="res://Assets/Main Characters/Ninja Frog/Run (32x32).png" id="3_5spiu"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_upiwa"]
 
@@ -200,6 +200,8 @@ sprite_frames = SubResource("SpriteFrames_fcjre")
 animation = &"run"
 
 [node name="Navigation" type="NavigationAgent2D" parent="."]
+path_max_distance = 300.0
+debug_enabled = true
 
 [node name="Vision" type="Area2D" parent="."]
 

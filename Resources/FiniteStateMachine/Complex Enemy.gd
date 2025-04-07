@@ -2,7 +2,7 @@ extends CharacterBody2D
 
 @onready var navigation = $Navigation
 
-const SPEED = 300.0
+const SPEED = 1.0
 @export var state = "idle"
 
 # Get the gravity from the project settings to be synced with RigidBody nodes.
@@ -24,8 +24,9 @@ func _physics_process(delta):
 			elif velocity.x > 0:
 				$Animations.flip_h = false
 		
-	if not is_on_floor():
-		velocity.y += gravity * delta
+	#if not is_on_floor():
+		#velocity.y += gravity * delta
+	velocity *= SPEED
 	move_and_slide()
 
 
@@ -45,4 +46,3 @@ func _on_vision_body_exited(body):
 		state = "idle"
 		velocity = Vector2(0.,0.)
 		print("changing state to idle")
-
