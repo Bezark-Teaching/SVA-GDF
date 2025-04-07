@@ -1,7 +1,7 @@
 [gd_scene load_steps=6 format=3 uid="uid://crn6gg0m31uhm"]
 
-[ext_resource type="Script" path="res://Simple Enemy Demo/CharacterBody2D.gd" id="1_km8iq"]
-[ext_resource type="Texture2D" uid="uid://c4oaaav66llsb" path="res://Assets/icon.svg" id="2_q24wf"]
+[ext_resource type="Script" uid="uid://dyki03dd8hufp" path="res://Simple Enemy Demo/CharacterBody2D.gd" id="1_km8iq"]
+[ext_resource type="Texture2D" uid="uid://c0n2jsuv5ji23" path="res://Assets/icon.svg" id="2_q24wf"]
 [ext_resource type="PackedScene" uid="uid://dlu6ai5f346mr" path="res://Simple Enemy Demo/simple_enemy.tscn" id="4_txhhl"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_u7sp8"]

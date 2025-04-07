@@ -249,10 +249,16 @@ https://youtube.com/live/ckjou1uWdmA?feature=share
 - **DUE: Lab 4**
 
 ## Week 12 4/7 - Capstone Presentations
+- Evaluations
 
-- Advanced Topics
-  - NPCs, Classes and Inheritance...
-- Capstone presentations 
+- Exporting
+- Sound
+
+- NPCs
+  - FSM
+  - Navigation
+
+- Spawning, Ramps
 
 ## Week 13 4/14 - XR
 - XR
