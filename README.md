@@ -1,5 +1,5 @@
 # Top of Mind
-
+- Here is our [Capstone Gmae Jam!](https://itch.io/jam/405401/preview)
 - We are plowing ahead with the [Capstone Game](/Assignments/Capstone/Capstone_Game.md) which is due at the end of the semester.
 - **NEXT WEEK (3/31) WE ARE GIVING OUR [CAPSTONE PRESENTATIONS](/Assignments/Capstone/Capstone_Concept.md)** Please add your name, ideas and a link to your slides on the [Capstone Board](https://www.tldraw.com/f/cFgYZSyTLHTx7aH3Tsgk0?d=v0.0.1660.881.d1eKbua0MINKyT3pjk8jm). Your capstone game can be 2D, 3D or Tabletop; it can be something new or an expansion of something you've done previously and you can work in a group or on your own! 
 - UGH i don't know why the recordings are not working this semsester. So Sorry about thiat. Fortunately here is the recording from last semseter which covers most of the content we talked about in class 
