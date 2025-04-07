@@ -266,12 +266,12 @@ https://youtube.com/live/ckjou1uWdmA?feature=share
 
 - [Web Export Github Pages](https://bezark.github.io/FCLC-Video-Game-Design/Modules/WebExport/exports/v3/)
 
-- **DUE: Final project playtest**
 - Review 
 
 ## Week 15 4/28 - Playtesting and Beyond
 
 - Preparing for the Game Industry: Portfolio and Career Paths
+- **DUE: Final project playtest**
 - **DUE: Game Review**
 
 ## Week 16 5/5
