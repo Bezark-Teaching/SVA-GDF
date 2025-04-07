@@ -14,6 +14,7 @@ func _physics_process(delta):
 	
 	match state:
 		"idle":
+			rotate(SPEED)
 			pass
 		"moving":
 			navigation.target_position = target.position

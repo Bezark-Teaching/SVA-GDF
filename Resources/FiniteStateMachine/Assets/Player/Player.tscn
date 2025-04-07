@@ -1,7 +1,7 @@
 [gd_scene load_steps=37 format=3 uid="uid://b8qjwo70eklew"]
 
 [ext_resource type="Texture2D" uid="uid://dihq0fkqtil8n" path="res://Assets/Main Characters/Virtual Guy/Idle (32x32).png" id="1_t4ibs"]
-[ext_resource type="Script" uid="uid://foqqg38xavg4" path="res://Assets/Player/Player.gd" id="1_uwvfs"]
+[ext_resource type="Script" path="res://Assets/Player/Player.gd" id="1_uwvfs"]
 [ext_resource type="Texture2D" uid="uid://dx8tpuj8j7ab8" path="res://Assets/Main Characters/Desappearing (96x96).png" id="2_noveg"]
 [ext_resource type="Texture2D" uid="uid://di7mmef0o171e" path="res://Assets/Main Characters/Virtual Guy/Run (32x32).png" id="3_bt07s"]
 

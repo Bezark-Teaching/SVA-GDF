@@ -1,0 +1,30 @@
+[gd_scene load_steps=4 format=3 uid="uid://bmrju8wwfmtrp"]
+
+[ext_resource type="Texture2D" uid="uid://d1e27um2nt142" path="res://icon.svg" id="1_bexhn"]
+[ext_resource type="Script" uid="uid://b4wx56v63wvy7" path="res://level_switcher.gd" id="1_t7iv1"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bw70e"]
+size = Vector2(761, 70)
+
+[node name="Level" type="Node2D"]
+script = ExtResource("1_t7iv1")
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="."]
+scale = Vector2(3, 3)
+
+[node name="ColorRect" type="ColorRect" parent="StaticBody2D2"]
+offset_right = 756.0
+offset_bottom = 62.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D2"]
+position = Vector2(370.5, 25)
+shape = SubResource("RectangleShape2D_bw70e")
+
+[node name="CameraEnd" type="Marker2D" parent="."]
+position = Vector2(706, -398)
+
+[node name="Icon" type="Sprite2D" parent="."]
+modulate = Color(1, 0.32549, 1, 1)
+position = Vector2(1942, -430)
+scale = Vector2(0.875001, 5.67969)
+texture = ExtResource("1_bexhn")

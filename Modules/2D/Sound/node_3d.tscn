@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3 uid="uid://dble8cgoa5f0g"]
+
+[ext_resource type="AudioStream" uid="uid://chvrpi3lgfr2x" path="res://Assets/music.mp3" id="1_52rny"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="."]
+stream = ExtResource("1_52rny")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 79.7444)
+
+[node name="CSGBox3D" type="CSGBox3D" parent="."]
+
+[node name="AudioListener3D" type="AudioListener3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 120.666, 0, 0)

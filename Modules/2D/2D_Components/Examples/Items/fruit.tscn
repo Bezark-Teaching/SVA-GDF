@@ -1,7 +1,7 @@
 [gd_scene load_steps=29 format=3 uid="uid://bbrc4r5uir85h"]
 
-[ext_resource type="Texture2D" uid="uid://bsm47b7tvd37e" path="res://Assets/Items/Fruits/Strawberry.png" id="1_ssclh"]
-[ext_resource type="Texture2D" uid="uid://dul6vxb8ptiib" path="res://Assets/Items/Fruits/Collected.png" id="2_k4snk"]
+[ext_resource type="Texture2D" uid="uid://ccpq6tolgqp5n" path="res://Assets/Items/Fruits/Strawberry.png" id="1_ssclh"]
+[ext_resource type="Texture2D" uid="uid://bniqb34axkjmy" path="res://Assets/Items/Fruits/Collected.png" id="2_k4snk"]
 [ext_resource type="Script" path="res://Examples/Items/fruit.gd" id="3_o64dh"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_wvhk0"]

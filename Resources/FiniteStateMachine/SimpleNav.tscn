@@ -1,0 +1,89 @@
+[gd_scene load_steps=6 format=3 uid="uid://cpg0td1qgchg8"]
+
+[ext_resource type="Script" path="res://navigation_agent_2d.gd" id="1_7mgal"]
+
+[sub_resource type="NavigationPolygon" id="NavigationPolygon_5vp22"]
+vertices = PackedVector2Array(-1901.31, 136.953, 1997.07, 136.953, 6156.66, 530.5, -4733.17, 239.977, -4733.17, 176.656, -5264.66, 303.453, -6080.58, 745.141, -5518.2, 303.453, 5066.26, -130.242, 5066.26, -359.906, 6100.05, -752.273, -531.68, -1197.57, -13488.6, -359.906, -13740, -865.742, -14177.3, 184.469, -13488.6, -130.242, -9427.1, 447.344, -1901.31, -11.6328, -4986.72, 176.656, 1997.07, -11.6328, -5264.66, 240.133, -4986.72, 239.977, -5518.2, 240.133)
+polygons = Array[PackedInt32Array]([PackedInt32Array(0, 1, 2, 3, 4), PackedInt32Array(5, 2, 6, 7), PackedInt32Array(8, 9, 10, 2), PackedInt32Array(11, 10, 9, 12, 13), PackedInt32Array(14, 13, 12, 15), PackedInt32Array(16, 14, 15, 17, 18), PackedInt32Array(1, 19, 8, 2), PackedInt32Array(15, 8, 19, 17), PackedInt32Array(17, 0, 4, 18), PackedInt32Array(3, 2, 5, 20, 21), PackedInt32Array(22, 7, 6, 16), PackedInt32Array(18, 21, 20, 22), PackedInt32Array(16, 18, 22)])
+outlines = Array[PackedVector2Array]([PackedVector2Array(-6080.92, 755.146, -9427.82, 457.319, -14192, 193.669, -13746.7, -875.578, -531.482, -1207.58, 6109.65, -761.655, 6167.11, 540.32)])
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_yyepf"]
+size = Vector2(3871, 128.829)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_rkd4o"]
+size = Vector2(3878.38, 128.57)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qt1bu"]
+size = Vector2(233.546, 43.3142)
+
+[node name="Node2D" type="Node2D"]
+
+[node name="NavigationRegion2D" type="NavigationRegion2D" parent="."]
+position = Vector2(927, 280)
+scale = Vector2(0.20885, -0.614451)
+navigation_polygon = SubResource("NavigationPolygon_5vp22")
+
+[node name="Level" type="StaticBody2D" parent="NavigationRegion2D"]
+position = Vector2(-4438.59, -139.962)
+scale = Vector2(4.78813, -1.62747)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="NavigationRegion2D/Level"]
+position = Vector2(47.5001, 64.5857)
+shape = SubResource("RectangleShape2D_yyepf")
+
+[node name="ColorRect" type="ColorRect" parent="NavigationRegion2D/Level"]
+offset_left = -1892.0
+offset_top = -2.0
+offset_right = 1984.0
+offset_bottom = 128.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Level2" type="StaticBody2D" parent="NavigationRegion2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="NavigationRegion2D/Level2"]
+position = Vector2(47.8813, 62.6576)
+shape = SubResource("RectangleShape2D_rkd4o")
+
+[node name="ColorRect" type="ColorRect" parent="NavigationRegion2D/Level2"]
+offset_left = -1892.0
+offset_top = -2.0
+offset_right = 1984.0
+offset_bottom = 128.0
+metadata/_edit_use_anchors_ = true
+
+[node name="SmallPlatform" type="StaticBody2D" parent="NavigationRegion2D"]
+position = Vector2(-5410.58, 247.375)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="NavigationRegion2D/SmallPlatform"]
+position = Vector2(19.1525, 24.412)
+shape = SubResource("RectangleShape2D_qt1bu")
+
+[node name="ColorRect" type="ColorRect" parent="NavigationRegion2D/SmallPlatform"]
+offset_left = -96.0
+offset_top = 3.0
+offset_right = 134.0
+offset_bottom = 46.0
+metadata/_edit_use_anchors_ = true
+
+[node name="SmallPlatform2" type="StaticBody2D" parent="NavigationRegion2D"]
+position = Vector2(-4879.1, 183.904)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="NavigationRegion2D/SmallPlatform2"]
+position = Vector2(19.1525, 24.412)
+shape = SubResource("RectangleShape2D_qt1bu")
+
+[node name="ColorRect" type="ColorRect" parent="NavigationRegion2D/SmallPlatform2"]
+offset_left = -96.0
+offset_top = 3.0
+offset_right = 134.0
+offset_bottom = 46.0
+
+[node name="Start" type="Marker2D" parent="."]
+position = Vector2(-299, 112)
+
+[node name="NavigationAgent2D" type="NavigationAgent2D" parent="Start"]
+debug_enabled = true
+script = ExtResource("1_7mgal")
+
+[node name="End" type="Marker2D" parent="Start"]
+position = Vector2(1976, 178)

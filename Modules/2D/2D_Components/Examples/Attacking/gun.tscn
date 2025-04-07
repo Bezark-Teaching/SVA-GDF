@@ -15,14 +15,14 @@ offset_right = 20.0
 
 [node name="ColorRect2" type="ColorRect" parent="Body"]
 offset_left = 4.0
-offset_top = -40.0
+offset_top = -41.0
 offset_right = 44.0
-offset_bottom = -24.0
+offset_bottom = -25.0
 
 [node name="Timer" type="Timer" parent="."]
 autostart = true
 
 [node name="Marker" type="Marker2D" parent="."]
-position = Vector2(44, -32)
+position = Vector2(44, -34)
 
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

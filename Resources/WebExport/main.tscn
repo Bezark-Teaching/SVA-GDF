@@ -1,7 +1,7 @@
 [gd_scene load_steps=2 format=3 uid="uid://c1c1gjv67yubd"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_l8fvp"]
-bg_color = Color(0, 0.634787, 0.959567, 1)
+bg_color = Color(0.913057, 0.358837, 0.720816, 1)
 
 [node name="Control" type="Control"]
 layout_mode = 3

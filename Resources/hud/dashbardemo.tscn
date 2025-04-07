@@ -1,0 +1,78 @@
+[gd_scene load_steps=10 format=3 uid="uid://dvixgpxu8bu2o"]
+
+[ext_resource type="Script" uid="uid://dmb5eb7ca8ps0" path="res://player.gd" id="1_362je"]
+[ext_resource type="Texture2D" uid="uid://d1e27um2nt142" path="res://icon.svg" id="2_mpyj3"]
+[ext_resource type="Texture2D" uid="uid://d2l5rc4dc18qm" path="res://06.png" id="3_mpyj3"]
+[ext_resource type="PackedScene" uid="uid://bmrju8wwfmtrp" path="res://Level.tscn" id="4_oapqp"]
+[ext_resource type="Script" uid="uid://gwhoe7hhvds3" path="res://camera_2d.gd" id="5_32anx"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_32anx"]
+size = Vector2(131, 131)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bw70e"]
+atlas = ExtResource("3_mpyj3")
+region = Rect2(226, 148, 27, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oapqp"]
+atlas = ExtResource("3_mpyj3")
+region = Rect2(66, 147, 27, 9)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bw70e"]
+size = Vector2(761, 70)
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Player" type="CharacterBody2D" parent="."]
+position = Vector2(71, -176)
+script = ExtResource("1_362je")
+
+[node name="Icon" type="Sprite2D" parent="Player"]
+position = Vector2(3, -1)
+texture = ExtResource("2_mpyj3")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
+position = Vector2(4.5, -0.5)
+shape = SubResource("RectangleShape2D_32anx")
+
+[node name="DashBar" type="TextureProgressBar" parent="Player"]
+offset_left = -506.0
+offset_top = -429.0
+offset_right = -479.0
+offset_bottom = -420.0
+scale = Vector2(5, 5)
+value = 50.0
+texture_under = SubResource("AtlasTexture_bw70e")
+texture_progress = SubResource("AtlasTexture_oapqp")
+
+[node name="Timer" type="Timer" parent="Player"]
+wait_time = 5.0
+
+[node name="Level" type="Node2D" parent="."]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Level"]
+position = Vector2(22, 520)
+scale = Vector2(3, 3)
+
+[node name="ColorRect" type="ColorRect" parent="Level/StaticBody2D"]
+offset_right = 756.0
+offset_bottom = 62.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Level/StaticBody2D"]
+position = Vector2(370.5, 25)
+shape = SubResource("RectangleShape2D_bw70e")
+
+[node name="Icon" type="Sprite2D" parent="Level/StaticBody2D"]
+modulate = Color(1, 0.32549, 1, 1)
+position = Vector2(415.333, -163.333)
+scale = Vector2(0.291667, 1.89323)
+texture = ExtResource("2_mpyj3")
+
+[node name="StaticBody2D2" parent="Level" instance=ExtResource("4_oapqp")]
+position = Vector2(2724, 526)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(1273, 151)
+zoom = Vector2(0.5, 0.5)
+script = ExtResource("5_32anx")
+
+[connection signal="timeout" from="Player/Timer" to="Player" method="_on_timer_timeout"]

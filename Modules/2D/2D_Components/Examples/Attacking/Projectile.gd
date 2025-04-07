@@ -13,5 +13,12 @@ func _process(delta):
 
 
 func _on_area_2d_body_entered(body):
-	body.damage(damage_amount)
+	if body.is_in_group('alive_things'):
+		body.damage(damage_amount)
+	queue_free()
+
+
+func _on_area_2d_area_entered(body):
+	if body.is_in_group('alive_things'):
+		body.damage(damage_amount)
 	queue_free()

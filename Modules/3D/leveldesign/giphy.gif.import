@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://cn1ky0f8cfbob"
+path="res://.godot/imported/giphy.gif-d77bac70f4bc42c907c0840cc9e6f1df.tres"
+
+[deps]
+
+source_file="res://giphy.gif"
+dest_files=["res://.godot/imported/giphy.gif-d77bac70f4bc42c907c0840cc9e6f1df.tres"]
+
+[params]
+
+frames_per_second=30
