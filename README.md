@@ -260,7 +260,7 @@ https://youtube.com/live/ckjou1uWdmA?feature=share
 - Spawning, Ramps
 
 ## Week 13 4/14 - XR
-- [MVP XR](https://github.com/Bezark-Teaching/MVP-XR)
+- ~~[MVP XR](https://github.com/Bezark-Teaching/MVP-XR)~~ LOL jk
 ## Weeks 14 4/21 - Review
 
 - [Web Export Github Pages](https://bezark.github.io/FCLC-Video-Game-Design/Modules/WebExport/exports/v3/)
