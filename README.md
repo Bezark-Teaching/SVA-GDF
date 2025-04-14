@@ -1,19 +1,18 @@
 # Top of Mind
-- Here is our [Capstone Gmae Jam!](https://itch.io/jam/405401/preview)
+- **Office Hours:** Thursday 1-5pm. [Book here](https://bit.ly/bezark-office-hours)
 - We are plowing ahead with the [Capstone Game](/Assignments/Capstone/Capstone_Game.md) which is due at the end of the semester.
-- **NEXT WEEK (3/31) WE ARE GIVING OUR [CAPSTONE PRESENTATIONS](/Assignments/Capstone/Capstone_Concept.md)** Please add your name, ideas and a link to your slides on the [Capstone Board](https://www.tldraw.com/f/cFgYZSyTLHTx7aH3Tsgk0?d=v0.0.1660.881.d1eKbua0MINKyT3pjk8jm). Your capstone game can be 2D, 3D or Tabletop; it can be something new or an expansion of something you've done previously and you can work in a group or on your own! 
-- UGH i don't know why the recordings are not working this semsester. So Sorry about thiat. Fortunately here is the recording from last semseter which covers most of the content we talked about in class 
+  - Here is our [Capstone Game Jam!](https://itch.io/jam/405401/preview)
+
+- There are plenty of other good godot resources out there:
+  - [Brackeys Tutorials](https://www.youtube.com/@Brackeys)
+  - [Learn GD SCRIPT](https://www.gdquest.com/news/2022/12/learn-gdscript-app/)
+  - [OFFICIAL GODOT TUTORIALS](https://docs.godotengine.org/en/stable/community/tutorials.html)
+
+## Previous Content:
   - [3D Mega Brain Busting Tutorial](https://www.youtube.com/watch?v=oPJNhc5Ri3I)
   - [First Person Camera](https://www.youtube.com/watch?v=5Y6QQXKkEpM)
   - [HELLO 3D](https://www.youtube.com/watch?v=YKmOb1VFDsQ)
   - [Materials](https://www.youtube.com/live/fMbfi5HR-uc?feature=shared)
-
-There are also plenty of other good resources out there:
-- [Brackeys Tutorials](https://www.youtube.com/@Brackeys)
-- [Learn GD SCRIPT](https://www.gdquest.com/news/2022/12/learn-gdscript-app/)
-- [OFFICIAL GODOT TUTORIALS](https://docs.godotengine.org/en/stable/community/tutorials.html)
-
-## Previous Content:
   - [Recipe Example](https://www.youtube.com/live/CpvQ5_CAS6s)
   - [Advanced 2D and 3D Intro](https://youtube.com/live/CJjN0ByG1mU)
   - [Working with Assets](https://youtube.com/live/lHuHChVD0QI)
