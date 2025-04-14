@@ -1,0 +1,37 @@
+[gd_scene load_steps=7 format=3 uid="uid://3bkqqk1rrvmn"]
+
+[ext_resource type="PackedScene" uid="uid://dusi077c1jsiv" path="res://enemy_on_a_path.tscn" id="1_skbib"]
+[ext_resource type="Curve2D" uid="uid://c3dc85ugdx6di" path="res://back_and_forth.tres" id="2_qh67x"]
+[ext_resource type="Script" path="res://character_body_2d.gd" id="3_066oq"]
+[ext_resource type="Texture2D" uid="uid://dsgwbpc6k86un" path="res://icon.svg" id="4_acv6l"]
+
+[sub_resource type="Curve2D" id="Curve2D_1ljyl"]
+_data = {
+"points": PackedVector2Array(-180.203, 22.6923, 180.203, -22.6923, 281, 63, -81.4252, -34.7058, 81.4252, 34.7058, 456, 188, 0, 0, 0, 0, 611, 292, -22.6923, 150.837, 22.6923, -150.837, 703, 256, 0, 0, 0, 0, 850, 73, 0, 0, 0, 0, 1012, 176, 0, 0, 0, 0, 1090, 427, 0, 0, 0, 0, 871, 547, 0, 0, 0, 0, 516, 555, 0, 0, 0, 0, 182, 463, 0, 0, 0, 0, -122, 364, 193.552, 174.864, -193.552, -174.864, -83, 114, 0, 0, 0, 0, 281, 63)
+}
+point_count = 13
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5xr63"]
+size = Vector2(154, 125)
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Path2D" parent="." instance=ExtResource("1_skbib")]
+curve = ExtResource("2_qh67x")
+speed = 0.003
+
+[node name="PathEnemy" parent="." instance=ExtResource("1_skbib")]
+position = Vector2(-1011, 51)
+curve = SubResource("Curve2D_1ljyl")
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="." groups=["player"]]
+script = ExtResource("3_066oq")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+position = Vector2(12, -3.5)
+shape = SubResource("RectangleShape2D_5xr63")
+
+[node name="Icon" type="Sprite2D" parent="CharacterBody2D"]
+modulate = Color(1, 1, 0.266667, 1)
+position = Vector2(7, -7)
+texture = ExtResource("4_acv6l")
