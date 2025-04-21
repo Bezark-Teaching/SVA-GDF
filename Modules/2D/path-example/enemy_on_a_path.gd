@@ -7,8 +7,14 @@ func _ready():
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
+func _process(_delta):
 	$PathFollow2D.progress_ratio += speed
+	if $PathFollow2D.progress_ratio >= 1.0 or $PathFollow2D.progress_ratio <= 0:
+		speed = - speed
+		$PathFollow2D/Icon.flip_h =  !$PathFollow2D/Icon.flip_h
+
+		
+	#print($PathFollow2D.progress_ratio)
 
 
 func _on_area_2d_body_entered(body):

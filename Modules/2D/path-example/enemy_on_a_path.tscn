@@ -5,9 +5,9 @@
 
 [sub_resource type="Curve2D" id="Curve2D_e3j84"]
 _data = {
-"points": PackedVector2Array(-180.203, 22.6923, 180.203, -22.6923, 281, 63, -81.4252, -34.7058, 81.4252, 34.7058, 456, 188, -22.6923, 150.837, 22.6923, -150.837, 703, 256, 0, 0, 0, 0, 850, 73, 0, 0, 0, 0, 1012, 176, 0, 0, 0, 0, 1090, 427, 0, 0, 0, 0, 871, 547, 0, 0, 0, 0, 516, 555, 0, 0, 0, 0, 182, 463, 0, 0, 0, 0, 210, 310, 193.552, 174.864, -193.552, -174.864, 245, 149, 0, 0, 0, 0, 281, 63)
+"points": PackedVector2Array(-180.203, 22.6923, 180.203, -22.6923, 67, 162, 0, 0, 0, 0, 1028, 168)
 }
-point_count = 12
+point_count = 2
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_xe8ac"]
 radius = 75.246
@@ -17,8 +17,9 @@ curve = SubResource("Curve2D_e3j84")
 script = ExtResource("1_vbnsy")
 
 [node name="PathFollow2D" type="PathFollow2D" parent="."]
-position = Vector2(281, 63)
+position = Vector2(67, 162)
 rotation = -0.125267
+loop = false
 
 [node name="Icon" type="Sprite2D" parent="PathFollow2D"]
 position = Vector2(-1.98434, -0.249893)
