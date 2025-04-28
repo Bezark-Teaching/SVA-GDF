@@ -13,7 +13,7 @@ Design and create a game using Godot 4 that can be played and completed within a
 - **Rule-set:** Incorporate a simple yet effective set of game mechanics and rules that are easy for players to understand and interact with.
 
 #### Submission Requirements:
-- **Conduct a playtest on 12/3:** Conduct an in class playtest of your game on the last day of class
+- **Conduct a playtest:** Conduct an in class playtest of your game on the last day of class
 
 #### Grading Criteria: (Total 30 Points)
 - **Meeting stated design goals (0-5):** Does the game have a clear objective, perspective(character/world/universe), ending condition and emotional impact?
