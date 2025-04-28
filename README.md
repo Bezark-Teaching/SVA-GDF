@@ -269,7 +269,7 @@ https://youtube.com/live/ckjou1uWdmA?feature=share
 
 ## Week 15 4/28 - Playtesting and Beyond
 
-- Preparing for the Game Industry: Portfolio and Career Paths
+- [Can I get a job in game design?](https://docs.google.com/presentation/d/1m_Pme4QIolADS6MawXt3hmFRhTdkEl4ggMznYDdsHCk/edit?usp=sharing)
 - **DUE: Final project playtest**
 - **DUE: Game Review**
 
