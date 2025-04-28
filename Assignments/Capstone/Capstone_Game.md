@@ -28,3 +28,5 @@ Design and create a game using Godot 4 that can be played and completed within a
 - **Iterative Design:** Utilize playtesting feedback to refine gameplay and mechanics. Don't be afraid to make changes based on player experiences.
 - **Utilize Godot Resources:** Take advantage of Godot's documentation, tutorials, and community forums to overcome technical challenges.
 - **Collaborate and Communicate:** Work closely with your group members, dividing tasks based on skills and interests, and maintain open lines of communication throughout the project development.
+
+
