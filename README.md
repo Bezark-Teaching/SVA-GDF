@@ -1,12 +1,3 @@
-# Top of Mind
-- **Office Hours:** Thursday 1-5pm. [Book here](https://bit.ly/bezark-office-hours)
-- We are plowing ahead with the [Capstone Game](/Assignments/Capstone/Capstone_Game.md) which is due at the end of the semester.
-  - Here is our [Capstone Game Jam!](https://itch.io/jam/405401/preview)
-
-- There are plenty of other good godot resources out there:
-  - [Brackeys Tutorials](https://www.youtube.com/@Brackeys)
-  - [Learn GD SCRIPT](https://www.gdquest.com/news/2022/12/learn-gdscript-app/)
-  - [OFFICIAL GODOT TUTORIALS](https://docs.godotengine.org/en/stable/community/tutorials.html)
 
 ## Previous Content:
   - [3D Mega Brain Busting Tutorial](https://www.youtube.com/watch?v=oPJNhc5Ri3I)
@@ -35,11 +26,11 @@
 - **Office Hours:** Thursday 1-5pm. [Book here](https://bit.ly/bezark-office-hours)
 
 ## **Course Description:**
-An introductory course exploring the fundamentals of digital game design and development. This course will use Godot 4 as the primary game creation tool, and it wil cover the basics of game development, coding fundamentals, and game design principles. Students will engage in hands-on projects to develop practical skills in both 2D and 3D game design. Students are not expected to have any prior programming or game design experience.
+An introductory course exploring the fundamentals of digital game design and development. This course will use Godot 4.5 as the primary game creation tool, and it wil cover the basics of game development, coding fundamentals, and game design principles. Students will engage in hands-on projects to develop practical skills in both 2D and 3D game design. Students are not expected to have any prior programming or game design experience.
 
 ## **Course Objectives:**
 - Understand the principles of game design and development.
-- Gain proficiency in Godot 4.
+- Gain proficiency in Godot 4.5.
 - Develop basic coding skills relevant to game design.
 - Complete three major game design projects: a tabletop game, a 2D game, and a capstone game.
 - Enhance writing and oral presentation skills through game-related assignments.
@@ -53,13 +44,13 @@ The  work of the class consists of the following:
 | Assignment                                                                     | Description                                                                | Due Date                     | Points        |
 |:-------------------------------------------------------------------------------|:---------------------------------------------------------------------------|:-----------------------------|---------------|
 | Class Participation                                                            | Actively participate in class discussions and contribute to group projects.|                              | 25            |
-| [Tabletop Game](/Assignments/Tabletop/Tabletop.md)                             | A playable prototype of a tabletop game                                    | 2/3                          | 16            |
-| [Labs 1-4](/Assignments/Labs/)                                                 | 4 short coding assignments designed to build proficiency. 6 points each.   | 2/17, 2/24, 3/3 & 3/24       | 24            |
-| [2D Game Design Document](/Assignments/2D/2D_Concept.md)                       | A brief paper describing your concept for the 2D Game                      | 2/17                         | 10            |
-| [2D Game](/Assignments/2D/2DGame.md)                                           | A playable prototype of a 2D game                                          | Playtest 3/17, Due 3/24      | 25            |
-| [Capstone Concept Presentation](/Assignments/Capstone/Capstone_Concept.md)     | A brief Presentation describing your concept for the 2D Game               | 3/31                         | 10            |
-| [Game Review](/Assignments/Game_Review.md)                                     | Play one of the suggested games and review it!                             | 4/28                         | 10            |
-| [Capstone Game](/Assignments/Capstone/Capstone_Game.md)                        | A polished game. Can be an evolution of the 2D game or something new.      | Final                        | 30            |
+| [Tabletop Game](/Assignments/Tabletop/Tabletop.md)                             | A playable prototype of a tabletop game                                    | 9/22                         | 16            |
+| [Labs 1-4](/Assignments/Labs/)                                                 | 4 short coding assignments designed to build proficiency. 6 points each.   | 10/6, 10/13, 10/20 & 11/10   | 24            |
+| [2D Game Design Document](/Assignments/2D/2D_Concept.md)                       | A brief paper describing your concept for the 2D Game                      | 10/6                         | 10            |
+| [2D Game](/Assignments/2D/2DGame.md)                                           | A playable prototype of a 2D game                                          | Playtest 10/27, Due 11/3     | 25            |
+| [Capstone Concept Presentation](/Assignments/Capstone/Capstone_Concept.md)     | A brief Presentation describing your concept for the Capstone Game         | 11/10                        | 10            |
+| [Game Review](/Assignments/Game_Review.md)                                     | Play one of the suggested games and review it!                             | 12/15                        | 10            |
+| [Capstone Game](/Assignments/Capstone/Capstone_Game.md)                        | A polished game. Can be an evolution of the 2D game or something new.      | 12/15                        | 30            |
 | **Total Points Possible**                                                      |                                                                            |                              | **150**       |
 
 All assignments will be graded on the due date. Students are always allowed to revise and resubmit work **up until the class before the final.**
@@ -74,7 +65,7 @@ The course is split into 3 distinct modules each with a unique project:
 - Week 10-14: 3D Game Design/Final Project Development
 
 
-## Week 1 1/13 - What is a Game?
+## Week 1 9/8 - What is a Game?
 
 - [Week 1 Slides](https://docs.google.com/presentation/d/1XyTh790-vgH1Z5X2Lh1e2syvccYtGBS-zmjpKJIgLjc/edit?usp=sharing)
 - [FILL OUT THIS FORM](https://forms.gle/5X6TjT88Yg5m5XLs8) so you can tell me if I’m giving you too much homework!
@@ -92,7 +83,7 @@ Break
 - **Homework: [Tabletop Game](/Assignments/Tabletop/Tabletop.md)**
 - **Homework: [Game Review](/Assignments/Game_Review.md)**
 
-## Week 2  1/27 - Prototyping and Iteration
+## Week 2 9/15 - Prototyping and Iteration
 - [MDA Framework - Systems, Loops and Balance](https://docs.google.com/presentation/d/1uAetOnfggzveGghece6A0NgGgMXQ8v8cDA54FXqsL08/edit?usp=sharing)
 - Prototyping Tabletop Games: Balancing and Mechanics
 - [Wilde Lab](https://sva.instructure.com/courses/2280328)
@@ -100,7 +91,7 @@ Break
 - MDA Framework
 - Systems, Loops and Balance
 
-## Week 3 2/3 - Playtesting/Hello Godot
+## Week 3 9/22 - Playtesting/Hello Godot
 
 - Playtesting
 - Getting started with Godot
@@ -113,7 +104,7 @@ Break
 
 ---
 
-## Week 4 2/10 - Getting Started in 2D
+## Week 4 9/29 - Getting Started in 2D
 
 https://youtube.com/live/ckjou1uWdmA?feature=share
 
@@ -137,7 +128,7 @@ https://youtube.com/live/ckjou1uWdmA?feature=share
 - **Homework: [2D Game](/Assignments/2D/2DGame.md)**
 - **Homework: [2D Game Concept](/Assignments/2D/2D_Concept.md)**
 
-## Week 5 2/17 - Coding Fundamentals
+## Week 5 10/6 - Coding Fundamentals
 
 **NO IN PERSON CLASS - Will be a video lecture**
 ### Resources
@@ -154,7 +145,7 @@ https://youtube.com/live/ckjou1uWdmA?feature=share
 - **Homework: [Lab 2](/Assignments/Labs/Lab_2.md)**
 
  
-## Week 6 2/24 – Input, Interactions and Patterns
+## Week 6 10/13 – Input, Interactions and Patterns
 
 - Lab Review - 20
 
@@ -185,11 +176,8 @@ https://youtube.com/live/ckjou1uWdmA?feature=share
 - **Homework: [Lab 3](/Assignments/Labs/Lab_3.md)**
 - **DUE: Lab 2**
 
----
-## SPRING BREAK
----
 
-## Week 7 3/10 - Level, Environment and UI Design
+## Week 7 10/20 - Level, Environment and UI Design
 
 - Area2D Review
 
@@ -211,13 +199,13 @@ https://youtube.com/live/ckjou1uWdmA?feature=share
 - **DUE: Lab 3**
 
 
-## Week 8 3/17 - Playtesting / Hello 3D
+## Week 8 10/27 - Playtesting / Hello 3D
 - **IN CLASS PLAYTEST - HAVE A GAME TO PLAY!**
 - Hello 3D
 
 ---
 
-## Week 9 3/24 - 3D Environments
+## Week 9 11/3 - 3D Environments
 
 - [Capstone Brainstorm](/Modules/3D/CapstoneBrainstorm.md)
 
@@ -232,7 +220,7 @@ https://youtube.com/live/ckjou1uWdmA?feature=share
 
 - **REALLY DUE: 2D Game**
 
-## Week 11 3/31 - Advanced 3D Topics and Capstone Presentations
+## Week 10 11/10 - Advanced 3D Topics and Capstone Presentations
 
 - Capstone presentations 
 
@@ -247,7 +235,7 @@ https://youtube.com/live/ckjou1uWdmA?feature=share
 
 - **DUE: Lab 4**
 
-## Week 12 4/7 - Capstone Presentations
+## Week 11 11/17 - Capstone Presentations
 - Evaluations
 
 - Exporting
@@ -259,32 +247,31 @@ https://youtube.com/live/ckjou1uWdmA?feature=share
 
 - Spawning, Ramps
 
-## Week 13 4/14 - XR
+## Week 12 12/1 - XR
 - ~~[MVP XR](https://github.com/Bezark-Teaching/MVP-XR)~~ LOL jk
-## Weeks 14 4/21 - Review
+## Week 13 12/8 - Review
 
 - [Web Export Github Pages](https://bezark.github.io/FCLC-Video-Game-Design/Modules/WebExport/exports/v3/)
 
 - Review 
 
-## Week 15 4/28 - Playtesting and Beyond
+## Week 14 12/15 - Playtesting and Beyond
 
 - [Can I get a job in game design?](https://docs.google.com/presentation/d/1m_Pme4QIolADS6MawXt3hmFRhTdkEl4ggMznYDdsHCk/edit?usp=sharing)
 - **DUE: Final project playtest**
 - **DUE: Game Review**
 
-## Week 16 5/5
 - **DUE: Capstone Project**
 
 # **Necessary Materials:**
-- [Godot 4.3](https://godotengine.org/) : An [open source](https://en.wikipedia.org/wiki/Open_source) 2D, 3D and XR game engine.
+- [Godot 4.5](https://godotengine.org/) : An [open source](https://en.wikipedia.org/wiki/Open_source) 2D, 3D and XR game engine.
 <!-- - [Blender](https://www.blender.org/) : an open source 3D modeling and animation program. -->
 - [Github Desktop](https://desktop.github.com/): an industry standard [version control](https://en.wikipedia.org/wiki/Version_control) system
 
 
 ## Tools Used
 
-- [Godot 4.3](https://godotengine.org/) : An [open source](https://en.wikipedia.org/wiki/Open_source) 2D, 3D and XR game engine.
+- [Godot 4.5](https://godotengine.org/) : An [open source](https://en.wikipedia.org/wiki/Open_source) 2D, 3D and XR game engine.
 - [Blender](https://www.blender.org/) : an open source 3D modeling and animation program.
 - [Github Desktop](https://desktop.github.com/): an industry standard [version control](https://en.wikipedia.org/wiki/Version_control) system
 
@@ -298,6 +285,17 @@ https://youtube.com/live/ckjou1uWdmA?feature=share
 - [Godot Discord](https://discord.com/invite/zH7NUgz)
 
 - **[TUTORIALS](https://docs.godotengine.org/en/stable/community/tutorials.html)**
+
+### Additional Learning Resources
+- [Brackeys Tutorials](https://www.youtube.com/@Brackeys)
+- [Learn GD SCRIPT](https://www.gdquest.com/news/2022/12/learn-gdscript-app/)
+
+### Asset Resources
+- [Kenny](https://kenney.nl/assets) - High quality free game assets
+- [Noun Project](https://thenounproject.com/) - Icons and symbols  
+- [Kraftpix](https://craftpix.net/freebies/) - Free game art assets
+- [Dotown](https://dotown.maeda-design-room.net/) - Pixel art assets
+- [Open Game Art](https://opengameart.org/) - Community-driven free assets
 
 ## Git & Github
 
@@ -314,4 +312,4 @@ When not creating weird things, John also really likes to work in education and 
 **Email: jbezark@sva.edu**
 [Portfolio](https://johnbezark.info/)
 
-**Office Hours by appointment.**
+**Office Hours:** Thursday 1-5pm. [Book here](https://bit.ly/bezark-office-hours)
