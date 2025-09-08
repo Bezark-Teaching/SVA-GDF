@@ -1,22 +1,4 @@
 
-## Previous Content:
-  - [3D Mega Brain Busting Tutorial](https://www.youtube.com/watch?v=oPJNhc5Ri3I)
-  - [First Person Camera](https://www.youtube.com/watch?v=5Y6QQXKkEpM)
-  - [HELLO 3D](https://www.youtube.com/watch?v=YKmOb1VFDsQ)
-  - [Materials](https://www.youtube.com/live/fMbfi5HR-uc?feature=shared)
-  - [Recipe Example](https://www.youtube.com/live/CpvQ5_CAS6s)
-  - [Advanced 2D and 3D Intro](https://youtube.com/live/CJjN0ByG1mU)
-  - [Working with Assets](https://youtube.com/live/lHuHChVD0QI)
-  - [Repawning and Game over](https://youtu.be/Y-3AxRxEXwE)
-  - [Video turotial on Github and Godot](https://www.youtube.com/watch?v=E1srposxZWo)
-  - [Introduction to Coding](https://www.youtube.com/live/CAY3K7NxOXE)
-  - [Conditionals and Input](https://www.youtube.com/watch?v=PyADIUsLobs)
-  - [9 Ways to Actually Get Game Dev Done On Time](https://www.youtube.com/watch?v=pAYi-kbayYY)
-  - [2D Genres](https://youtube.com/live/yrTvBPAcALI?feature=share)
-  - [Lab 1 Review](https://youtube.com/live/ckjou1uWdmA?feature=share)
-  - [Hello Godot](https://youtube.com/live/B7TpNjIVCc4?feature=share)
-  - [Creating and Sharing Github Repos](https://youtube.com/live/kBJUp59F6DQ?feature=share)
-
 
 # SVA Game Design Fundamentals Syllabus
 
@@ -247,15 +229,17 @@ https://youtube.com/live/ckjou1uWdmA?feature=share
 
 - Spawning, Ramps
 
-## Week 12 12/1 - XR
+## Week 12 11/24 - NO CLASS (Thanksgiving Week)
+
+## Week 13 12/1 - XR
 - ~~[MVP XR](https://github.com/Bezark-Teaching/MVP-XR)~~ LOL jk
-## Week 13 12/8 - Review
+## Week 14 12/8 - Review
 
 - [Web Export Github Pages](https://bezark.github.io/FCLC-Video-Game-Design/Modules/WebExport/exports/v3/)
 
 - Review 
 
-## Week 14 12/15 - Playtesting and Beyond
+## Week 15 12/15 - Playtesting and Beyond
 
 - [Can I get a job in game design?](https://docs.google.com/presentation/d/1m_Pme4QIolADS6MawXt3hmFRhTdkEl4ggMznYDdsHCk/edit?usp=sharing)
 - **DUE: Final project playtest**

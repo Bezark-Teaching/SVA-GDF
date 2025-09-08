@@ -22,4 +22,3 @@
 
 ### Jams
 - [Itch.io Calendar](https://itch.io/jams)
-  - [FCLC JAM](https://itch.io/jam/fclc-video-game-design-jam-2024)
