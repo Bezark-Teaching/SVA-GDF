@@ -2,7 +2,7 @@
 
 # SVA Game Design Fundamentals Syllabus
 
-- **Course Code:** DSD 4721 
+- **Course Code:** DSD-3844-A
 - **Schedule:** Mon 3:20-6:10pm
 - **Instructor:** John Bezark
 - **Office Hours:** Thursday 1-5pm. [Book here](https://bit.ly/bezark-office-hours)
