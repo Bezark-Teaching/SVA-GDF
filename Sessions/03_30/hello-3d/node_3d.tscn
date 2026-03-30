@@ -1,0 +1,109 @@
+[gd_scene format=3 uid="uid://bkql7dba73jym"]
+
+[ext_resource type="Texture2D" uid="uid://cb4638mlt7ewr" path="res://icon.svg" id="1_a202f"]
+[ext_resource type="Script" uid="uid://clgpoqf7vo5oc" path="res://character_body_3d.gd" id="2_noarx"]
+
+[sub_resource type="PhysicalSkyMaterial" id="PhysicalSkyMaterial_a202f"]
+rayleigh_coefficient = 0.0
+turbidity = 43.77
+sun_disk_scale = 19.24
+
+[sub_resource type="Sky" id="Sky_noarx"]
+sky_material = SubResource("PhysicalSkyMaterial_a202f")
+
+[sub_resource type="Environment" id="Environment_a0tk4"]
+background_mode = 2
+sky = SubResource("Sky_noarx")
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_a0tk4"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_a202f"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_noarx"]
+
+[sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_a202f"]
+exposure_multiplier = 2.239
+dof_blur_far_enabled = true
+dof_blur_far_distance = 173.26
+dof_blur_near_enabled = true
+dof_blur_near_distance = 5.0
+dof_blur_near_transition = 45.77
+dof_blur_amount = 0.04
+
+[node name="Node3D" type="Node3D" unique_id=847224623]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=689454818]
+environment = SubResource("Environment_a0tk4")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=128795766]
+visible = false
+position = Vector2(154, 121)
+texture = ExtResource("1_a202f")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="." unique_id=1243114686]
+transform = Transform3D(-0.7211871, 0.6550441, -0.22540298, -0.57646513, -0.38704187, 0.7196434, 0.38415772, 0.6489345, 0.65673965, 2.4069386, -3.857017, 2.523399)
+light_color = Color(0.3254902, 0.27450982, 1, 1)
+light_energy = 2.321
+omni_range = 5.763849
+
+[node name="SpotLight3D" type="SpotLight3D" parent="." unique_id=282666821]
+transform = Transform3D(-0.7211871, 0.6550441, -0.225403, -0.57646513, -0.38704187, 0.7196434, 0.38415772, 0.6489345, 0.6567396, -6.267171, 13.6768, 5.435649)
+light_energy = 9.531
+light_projector = ExtResource("1_a202f")
+shadow_enabled = true
+spot_range = 20.675491
+spot_attenuation = 1.07
+spot_angle = 26.8
+spot_angle_attenuation = 1.4142268
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=821572802]
+transform = Transform3D(-0.7211872, 0.655044, -0.22540294, -0.6798053, -0.6066249, 0.4121542, 0.13324411, 0.4504704, 0.8827924, -9.377866, 11.548321, 9.728466)
+light_energy = 1.029
+shadow_enabled = true
+
+[node name="CSGBox3D" type="CSGBox3D" parent="." unique_id=1300976023]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.1719682, 0.7209116, -11.8212185)
+use_collision = true
+size = Vector3(16.510376, 1, 11.362305)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="." unique_id=831466401]
+transform = Transform3D(0.9999563, -4.089138e-10, 0.0093548, -0.0093548, -4.3709477e-08, 0.9999563, 0, -1, -4.371139e-08, 0.11203709, 1.4574871, -13.620908)
+use_collision = true
+radius = 3.4594727
+height = 4.121582
+sides = 3
+
+[node name="RigidBody3D" type="RigidBody3D" parent="." unique_id=1651152234]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5.8470516, -13.543342)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D" unique_id=1103134362]
+shape = SubResource("SphereShape3D_a0tk4")
+debug_color = Color(0.8368537, 0.6004373, 0.97046405, 0.99607843)
+
+[node name="Sprite3D" type="Sprite3D" parent="RigidBody3D" unique_id=49158207]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.19198942, 0)
+texture = ExtResource("1_a202f")
+
+[node name="Label" type="Label" parent="." unique_id=1594395775]
+visible = false
+offset_left = 937.0
+offset_top = 24.0
+offset_right = 986.0
+offset_bottom = 47.0
+text = "POINT"
+
+[node name="CharacterBody3D" type="CharacterBody3D" parent="." unique_id=1252534580]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.613793, -9.939642)
+script = ExtResource("2_noarx")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="CharacterBody3D" unique_id=989468800]
+mesh = SubResource("CapsuleMesh_a202f")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CharacterBody3D" unique_id=1708895375]
+shape = SubResource("CapsuleShape3D_noarx")
+
+[node name="Camera3D" type="Camera3D" parent="CharacterBody3D" unique_id=831323603]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0998663, 0.6374085, 0.11211109)
+attributes = SubResource("CameraAttributesPractical_a202f")
+fov = 74.14329
+size = 0.121

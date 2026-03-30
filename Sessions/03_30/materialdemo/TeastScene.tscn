@@ -1,0 +1,86 @@
+[gd_scene format=3 uid="uid://dujmy8xx25fyb"]
+
+[ext_resource type="Texture2D" uid="uid://c5hqbbi0bfr1o" path="res://icon.svg" id="1_s6qoj"]
+[ext_resource type="Texture2D" uid="uid://ckvaefppfye34" path="res://BrickMaterial/Bricks075A_4K-PNG_Color.png" id="1_vml8h"]
+[ext_resource type="Texture2D" uid="uid://dj1poeufk8n8p" path="res://BrickMaterial/Bricks075A_4K-PNG_AmbientOcclusion.png" id="2_fk8jq"]
+[ext_resource type="Texture2D" uid="uid://cg08i4mxg2ax8" path="res://BrickMaterial/Bricks075A_4K-PNG_Displacement.png" id="3_ugj15"]
+[ext_resource type="Texture2D" uid="uid://d2pefe4howq2t" path="res://BrickMaterial/Bricks075A_4K-PNG_NormalDX.png" id="4_inpce"]
+[ext_resource type="Texture2D" uid="uid://c7yyp6w0mi4yg" path="res://256x256/Elements/Elements_01-256x256.png" id="5_x217n"]
+[ext_resource type="Texture2D" uid="uid://g3ur6oxtl2nk" path="res://Velvet/velour_velvet_diff_2k.jpg" id="7_y6gvb"]
+[ext_resource type="Texture2D" uid="uid://clgmm7srkg2d5" path="res://Velvet/velour_velvet_disp_2k.png" id="8_sm421"]
+[ext_resource type="Texture2D" uid="uid://du5gpllsgkxqq" path="res://Velvet/velour_velvet_nor_dx_2k.png" id="9_aw6mi"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_3nwd2"]
+sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+ground_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+
+[sub_resource type="Sky" id="Sky_846ui"]
+sky_material = SubResource("ProceduralSkyMaterial_3nwd2")
+
+[sub_resource type="Environment" id="Environment_0a6pn"]
+background_mode = 2
+sky = SubResource("Sky_846ui")
+tonemap_mode = 2
+glow_enabled = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_rfsyf"]
+albedo_texture = ExtResource("1_vml8h")
+normal_enabled = true
+normal_texture = ExtResource("4_inpce")
+ao_enabled = true
+ao_light_affect = 0.17
+ao_texture = ExtResource("2_fk8jq")
+ao_texture_channel = 3
+heightmap_enabled = true
+heightmap_scale = 0.198
+heightmap_texture = ExtResource("3_ugj15")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vnwi0"]
+albedo_texture = ExtResource("5_x217n")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_iha6b"]
+transparency = 1
+albedo_color = Color(0.2509804, 0.49019608, 0.45490196, 1)
+albedo_texture = ExtResource("1_s6qoj")
+uv1_scale = Vector3(-6.51, -6.51, -6.51)
+uv1_triplanar = true
+uv1_triplanar_sharpness = 12.99605
+uv1_world_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ybf2f"]
+albedo_texture = ExtResource("7_y6gvb")
+normal_enabled = true
+normal_texture = ExtResource("9_aw6mi")
+heightmap_enabled = true
+heightmap_texture = ExtResource("8_sm421")
+
+[node name="Node3D" type="Node3D" unique_id=1867241267]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=647414338]
+transform = Transform3D(-0.8660252, -0.43301284, 0.24999997, 0.46351027, -0.8827707, 0.076642245, 0.18750551, 0.18225172, 0.9652077, 0, 21.303774, 0)
+shadow_enabled = true
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1022051207]
+environment = SubResource("Environment_0a6pn")
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=1903831130]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.27972257, -1.8781941)
+
+[node name="CSGBox3D" type="CSGBox3D" parent="." unique_id=968181734]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.981346, -2.2145138, 13.150863)
+size = Vector3(78, 1, 100)
+material = SubResource("StandardMaterial3D_rfsyf")
+
+[node name="CSGSphere3D" type="CSGSphere3D" parent="." unique_id=1315218498]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.9484743)
+material_override = SubResource("StandardMaterial3D_vnwi0")
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="CSGSphere3D" unique_id=224190724]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.17063248, 0.0029307604)
+operation = 2
+height = 0.17321777
+material = SubResource("StandardMaterial3D_iha6b")
+
+[node name="CSGTorus3D" type="CSGTorus3D" parent="." unique_id=1180168856]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.9558232, 0.8798958, 0)
+material = SubResource("StandardMaterial3D_ybf2f")

@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://cc7gj5marqayw"]
+
+[ext_resource type="Material" uid="uid://ph8x5yxfehg" path="res://BrickMaterial/Brick.tres" id="1_jbd7x"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="CSGBox3D" type="CSGBox3D" parent="."]
+material = ExtResource("1_jbd7x")

@@ -1,11 +1,11 @@
 # Top of Mind
 - [Fill out the Capstone Board](https://www.tldraw.com/f/j1y3iGmbjf5sKf27ACrA8?d=v-571.-115.3155.1677.page)
-- [Hello 3D in class](https://youtu.be/q1qguv9IfV8)
-- [Common 2D Game Design Patterns](https://youtu.be/dAl7IKXBuTE)
-- [Video Tutorial on working with assets](https://fordham.zoom.us/rec/share/ANQ-ca_Prp1ip3dGjLw5jJBhDJBRDaIY3pAGhL6xRjodZbcvddFtetn3EcrgJOIw.LO0VNmkoQg6xAJrd) password: gS^p9%Z!
-
-- MO SNO?!?! Here's a [video tutorial to watch in lieu of in person class](https://www.youtube.com/live/zUN2pb6N3uI?si=eGFEQVGbHzK_UThX)
-- Begin Working on [Lab 1](/Assignments/Labs/Lab_1.md), [Lab 2](/Assignments/Labs/Lab_2.md) and [Lab 3](/Assignments/Labs/Lab_3.md)
+- Video Tutorials:
+  - [3D Materials and Models](https://youtu.be/NAhDZzLUVyI)
+  - [Hello 3D in class](https://youtu.be/q1qguv9IfV8)
+  - [Common 2D Game Design Patterns](https://youtu.be/dAl7IKXBuTE)
+  - [Video Tutorial on working with assets](https://fordham.zoom.us/rec/share/ANQ-ca_Prp1ip3dGjLw5jJBhDJBRDaIY3pAGhL6xRjodZbcvddFtetn3EcrgJOIw.LO0VNmkoQg6xAJrd) password: gS^p9%Z!
+  - [video tutorial to watch in lieu of in person class](https://www.youtube.com/live/zUN2pb6N3uI?si=eGFEQVGbHzK_UThX)
   - [Video turotial on Github and Godot Covering all of Lab 1](https://www.youtube.com/watch?v=E1srposxZWo)
   - [Past Lecture on COnditional Statements](https://www.youtube.com/watch?v=PyADIUsLobs)
 
