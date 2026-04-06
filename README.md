@@ -1,6 +1,7 @@
 # Top of Mind
 - [Fill out the Capstone Board](https://www.tldraw.com/f/j1y3iGmbjf5sKf27ACrA8?d=v-571.-115.3155.1677.page)
 - Video Tutorials:
+  - [MODELS AND ANIMS](https://youtu.be/lf76C5FFewQ)
   - [3D Materials and Models](https://youtu.be/NAhDZzLUVyI)
   - [Hello 3D in class](https://youtu.be/q1qguv9IfV8)
   - [Common 2D Game Design Patterns](https://youtu.be/dAl7IKXBuTE)
