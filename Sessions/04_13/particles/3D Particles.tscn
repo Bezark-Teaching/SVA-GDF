@@ -1,0 +1,142 @@
+[gd_scene format=3 uid="uid://ciepp3ls8o3fv"]
+
+[ext_resource type="Texture2D" uid="uid://dailcvocdvslx" path="res://particletexture/star_01.png" id="1_bua10"]
+[ext_resource type="Script" uid="uid://br3vgjwq0qcka" path="res://3d_particles.gd" id="1_y8v8l"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_y8v8l"]
+sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+ground_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+
+[sub_resource type="Sky" id="Sky_jpjnm"]
+sky_material = SubResource("ProceduralSkyMaterial_y8v8l")
+
+[sub_resource type="Environment" id="Environment_85bpc"]
+background_mode = 2
+sky = SubResource("Sky_jpjnm")
+tonemap_mode = 2
+
+[sub_resource type="Animation" id="Animation_y8v8l"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CSGCylinder3D:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, -0.4357109)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("CSGCylinder3D:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("CSGCylinder3D/GPUParticles3D:emitting")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+
+[sub_resource type="Animation" id="Animation_jpjnm"]
+resource_name = "pour"
+length = 3.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CSGCylinder3D:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1.34),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, -0.4357109), Vector3(-0.42297888, 1.4518477, -0.4357109)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("CSGCylinder3D:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 1.34),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(0, 0, -2.0561898)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("CSGCylinder3D/GPUParticles3D:emitting")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(1.52),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_85bpc"]
+_data = {
+&"RESET": SubResource("Animation_y8v8l"),
+&"pour": SubResource("Animation_jpjnm")
+}
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_y8v8l"]
+emission_shape = 1
+emission_sphere_radius = 1.0
+linear_accel_min = 4.3699975
+linear_accel_max = 6.1699977
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jpjnm"]
+transparency = 1
+albedo_texture = ExtResource("1_bua10")
+
+[sub_resource type="QuadMesh" id="QuadMesh_85bpc"]
+material = SubResource("StandardMaterial3D_jpjnm")
+
+[node name="TriggerParitcles" type="Node3D" unique_id=817221766]
+script = ExtResource("1_y8v8l")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=165005912]
+transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 0, 0, 0)
+shadow_enabled = true
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=829926686]
+environment = SubResource("Environment_85bpc")
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=478005608]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 16.535055)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=175086812]
+libraries/ = SubResource("AnimationLibrary_85bpc")
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="." unique_id=767238339]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.4357109)
+
+[node name="GPUParticles3D" type="GPUParticles3D" parent="CSGCylinder3D" unique_id=945597869]
+transform = Transform3D(1, 0, 0, 0, 0.9957312, 0.09230107, 0, -0.09230107, 0.9957312, 0.09077835, 1.7244539, 0.4357109)
+emitting = false
+amount = 500
+one_shot = true
+preprocess = 0.94
+process_material = SubResource("ParticleProcessMaterial_y8v8l")
+draw_pass_1 = SubResource("QuadMesh_85bpc")

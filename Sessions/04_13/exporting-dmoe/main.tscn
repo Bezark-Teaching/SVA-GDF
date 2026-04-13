@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://t0jnkvfyswu5"]
+
+[ext_resource type="Texture2D" uid="uid://dur433pxfnva1" path="res://litter-of-puppies-lying-together-in-green-grass-031324.jpg" id="1_0xm2m"]
+[ext_resource type="Texture2D" uid="uid://bhjus34fg8f8e" path="res://icon.svg" id="2_h2yge"]
+
+[node name="Node2D" type="Node2D" unique_id=122502968]
+
+[node name="LitterOfPuppiesLyingTogetherInGreenGrass031324" type="Sprite2D" parent="." unique_id=500333663]
+position = Vector2(602.7499, 305.25)
+scale = Vector2(0.49780002, 0.4858994)
+texture = ExtResource("1_0xm2m")
+
+[node name="Icon" type="Sprite2D" parent="." unique_id=627547867]
+position = Vector2(1007, 463.99997)
+scale = Vector2(2.5546875, 1.90625)
+texture = ExtResource("2_h2yge")
+
+[node name="Button" type="Button" parent="." unique_id=1273942184]
+offset_left = 93.0
+offset_top = 191.0
+offset_right = 312.0
+offset_bottom = 330.0
+text = "WOOOH!"

@@ -1,6 +1,8 @@
 # Top of Mind
-- [Fill out the Capstone Board](https://www.tldraw.com/f/j1y3iGmbjf5sKf27ACrA8?d=v-571.-115.3155.1677.page)
+- [Sign up for the Capstone Game Jam](https://itch.io/jam/sva-gdf-spring-2026-capstone-jam)
 - Video Tutorials:
+  - [Uploading Games to Itch](https://youtu.be/Jl8RoARhyJs)
+  - [Classes and Resources](https://youtu.be/MoWTLKvZ2z0)
   - [MODELS AND ANIMS](https://youtu.be/lf76C5FFewQ)
   - [3D Materials and Models](https://youtu.be/NAhDZzLUVyI)
   - [Hello 3D in class](https://youtu.be/q1qguv9IfV8)
@@ -210,7 +212,6 @@ Break
 
 ## Week 14 - Monday 4/13 - Review
 - Exporting
-- Animated Characters
 - Web Export Github Pages
 
 - Resources
@@ -219,9 +220,10 @@ Break
   - Navigation
 
 - Particles
-- Animation Trees
 
 ## Week 15 - Monday 4/20 - Review
+- Animated Characters
+- Animation Trees
 
 - Review
 

@@ -1,0 +1,87 @@
+[gd_scene format=3 uid="uid://n8y42j7veoyd"]
+
+[ext_resource type="Texture2D" uid="uid://b2jita832qbxs" path="res://particletexture/abstract_17.png" id="1_nep4k"]
+[ext_resource type="Texture2D" uid="uid://bc1mmab1ugbwl" path="res://particletexture/beam_02.png" id="2_hq1n3"]
+[ext_resource type="Texture2D" uid="uid://dxypsb5nf371v" path="res://particletexture/flame_01.png" id="3_3ynle"]
+[ext_resource type="Texture2D" uid="uid://drh1jnosqimco" path="res://icon.svg" id="4_pfvue"]
+
+[sub_resource type="Curve" id="Curve_uvh52"]
+_limits = [-1.0, 1.0, 0.0, 1.0]
+_data = [Vector2(0, -0.72712064), 0.0, 0.0, 0, 0, Vector2(0.26524824, -0.97873366), 0.0, 0.0, 0, 0, Vector2(0.8624113, -0.24874556), 0.0, 0.0, 0, 0, Vector2(1, 1), 0.0, 0.0, 0, 0]
+point_count = 4
+
+[sub_resource type="CurveTexture" id="CurveTexture_mdr5x"]
+curve = SubResource("Curve_uvh52")
+
+[sub_resource type="Curve" id="Curve_hq1n3"]
+_limits = [0.0, 3.0, 0.0, 1.0]
+_data = [Vector2(0, 0.288172), 0.0, 0.0, 0, 0, Vector2(0.92056733, 3), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="CurveTexture" id="CurveTexture_3ynle"]
+curve = SubResource("Curve_hq1n3")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_pfvue"]
+particle_flag_disable_z = true
+emission_shape = 1
+emission_sphere_radius = 85.07
+angle_min = -66.49999
+angle_max = 81.30001
+inherit_velocity_ratio = 0.158
+velocity_pivot = Vector3(0.81, 0, 0)
+direction = Vector3(2.71, 0, 0)
+spread = 64.303
+flatness = 0.284
+initial_velocity_max = 269.57
+gravity = Vector3(0, 98, 0)
+scale_over_velocity_max = 41.079998
+scale_over_velocity_curve = SubResource("CurveTexture_3ynle")
+hue_variation_min = -0.12000002
+hue_variation_max = 0.119999975
+hue_variation_curve = SubResource("CurveTexture_mdr5x")
+turbulence_enabled = true
+turbulence_noise_strength = 6.45
+
+[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_rcxlp"]
+polygon = PackedVector2Array(17, 12, 31, -3, 45, 11, 38, 20, 27, 39)
+
+[node name="Node2D" type="Node2D" unique_id=25698702]
+
+[node name="GPUParticles2D" type="GPUParticles2D" parent="." unique_id=876579400]
+position = Vector2(168, 72)
+emitting = false
+amount = 251
+texture = ExtResource("1_nep4k")
+lifetime = 4.27
+speed_scale = 1.47
+randomness = 0.23
+collision_base_size = 0.0
+process_material = SubResource("ParticleProcessMaterial_pfvue")
+
+[node name="PointLight2D" type="PointLight2D" parent="." unique_id=1178312427]
+position = Vector2(140, 77)
+energy = 2.42
+shadow_enabled = true
+shadow_color = Color(0.03529412, 0.03529412, 0.03529412, 0.89411765)
+texture = ExtResource("2_hq1n3")
+
+[node name="Flame01" type="Sprite2D" parent="." unique_id=490135822]
+position = Vector2(192, 51)
+texture = ExtResource("3_3ynle")
+
+[node name="Icon" type="Sprite2D" parent="." unique_id=585162946]
+position = Vector2(148, 59)
+scale = Vector2(0.3984375, 0.453125)
+texture = ExtResource("4_pfvue")
+
+[node name="LightOccluder2D" type="LightOccluder2D" parent="Icon" unique_id=517220189]
+position = Vector2(-67.76471, -48.55172)
+scale = Vector2(2.5098038, 2.2068965)
+occluder = SubResource("OccluderPolygon2D_rcxlp")
+
+[node name="DirectionalLight2D" type="DirectionalLight2D" parent="." unique_id=836587840]
+rotation = -0.39849097
+color = Color(1, 0.15294118, 1, 1)
+energy = 0.48
+height = 0.12
+max_distance = 8327.0

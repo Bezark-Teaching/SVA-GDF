@@ -1,0 +1,32 @@
+[gd_scene format=3 uid="uid://ce22usdp1teki"]
+
+[ext_resource type="Script" uid="uid://dhkiabew4ilhn" path="res://Player.gd" id="1_k68pu"]
+[ext_resource type="Script" uid="uid://mcymaoqfpols" path="res://item.gd" id="2_6m5p0"]
+[ext_resource type="Texture2D" uid="uid://bvrlmbkh7fs0x" path="res://Red_Book_PNG_Clipart-1063.png" id="3_tqdpn"]
+[ext_resource type="Script" uid="uid://ch5v2tcjy6qhd" path="res://Weapon.gd" id="4_tqdpn"]
+[ext_resource type="Texture2D" uid="uid://2r6khg74re7n" path="res://pngtree-medieval-sword-ornate-hilt-double-edged-blade-fantasy-weapon-polished-me-png-image_14100905.png" id="4_xk036"]
+
+[node name="Player" type="Node2D" unique_id=1666461022 node_paths=PackedStringArray("held_item")]
+script = ExtResource("1_k68pu")
+held_item = NodePath("Sword")
+
+[node name="Book" type="Sprite2D" parent="." unique_id=63561819]
+position = Vector2(651, 96.000015)
+scale = Vector2(2.125, 1.828125)
+script = ExtResource("2_6m5p0")
+title = "Book"
+price = 20
+picture = ExtResource("3_tqdpn")
+
+[node name="Sword" type="Sprite2D" parent="." unique_id=1078077372]
+position = Vector2(352, 185)
+scale = Vector2(2.125, 1.828125)
+script = ExtResource("4_tqdpn")
+title = "Sword"
+price = 10
+picture = ExtResource("4_xk036")
+metadata/_custom_type_script = "uid://mcymaoqfpols"
+
+[node name="Button" type="Button" parent="." unique_id=1974713910]
+offset_right = 8.0
+offset_bottom = 8.0

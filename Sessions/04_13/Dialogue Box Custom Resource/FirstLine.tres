@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="LineOfDialogue" format=3 uid="uid://df5hlfhmfo3x6"]
+
+[ext_resource type="Script" uid="uid://bgrl2bxwo0eyj" path="res://line.gd" id="1_rndsp"]
+
+[resource]
+script = ExtResource("1_rndsp")
+line = "Hello!"
+character_name = "Bob"
+metadata/_custom_type_script = "uid://bgrl2bxwo0eyj"
