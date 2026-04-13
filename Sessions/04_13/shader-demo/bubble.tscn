@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://c2clf0ctndnca"]
+
+[ext_resource type="Shader" uid="uid://cwa5pxdkqc0sh" path="res://otherbubble.tres" id="1_n2mqj"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_y2db8"]
+render_priority = 0
+shader = ExtResource("1_n2mqj")
+
+[sub_resource type="SphereMesh" id="SphereMesh_4a276"]
+material = SubResource("ShaderMaterial_y2db8")
+
+[node name="Node3D" type="Node3D" unique_id=455794623]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1322568132]
+mesh = SubResource("SphereMesh_4a276")

@@ -1,0 +1,10 @@
+[gd_resource type="VisualShader" format=3 uid="uid://cwa5pxdkqc0sh"]
+
+[sub_resource type="VisualShaderNodeInput" id="VisualShaderNodeInput_50q8b"]
+output_port_for_preview = 0
+input_name = "color"
+
+[resource]
+nodes/vertex/0/position = Vector2(500, 80)
+nodes/vertex/2/node = SubResource("VisualShaderNodeInput_50q8b")
+nodes/vertex/2/position = Vector2(-20, 160)

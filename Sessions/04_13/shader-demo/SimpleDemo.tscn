@@ -1,0 +1,46 @@
+[gd_scene format=3 uid="uid://s1qvos6fgh4w"]
+
+[ext_resource type="Shader" uid="uid://b0car3op01v0e" path="res://RotateExample.gdshader" id="1_etf4c"]
+[ext_resource type="Texture2D" uid="uid://b62jiydq8nlot" path="res://icon.svg" id="2_8e7do"]
+[ext_resource type="Shader" uid="uid://b0b1s4t6oqjyq" path="res://VHS.gdshader" id="2_o2dxq"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_o2dxq"]
+shader = ExtResource("1_etf4c")
+shader_parameter/rotate_degree = 66.30000098794956
+shader_parameter/move_degree = 24.60000036656952
+shader_parameter/speed = 9.53200045277
+shader_parameter/scale = 0.00999999977648
+shader_parameter/gap = Vector2(0.5, 0.5)
+shader_parameter/node_scale = Vector2(1, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_8e7do"]
+shader = ExtResource("2_o2dxq")
+shader_parameter/shake = 0.2910000138225
+
+[node name="Node2D" type="Node2D" unique_id=1229376388]
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=731254676]
+material = SubResource("ShaderMaterial_o2dxq")
+offset_left = 42.0
+offset_top = 45.0
+offset_right = 1011.0
+offset_bottom = 533.0
+
+[node name="Icon" type="Sprite2D" parent="." unique_id=1056950841]
+position = Vector2(721, 153)
+texture = ExtResource("2_8e7do")
+
+[node name="ColorRect2" type="ColorRect" parent="." unique_id=1554061166]
+material = SubResource("ShaderMaterial_8e7do")
+custom_minimum_size = Vector2(10, 0)
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -44.0
+offset_top = -20.0
+offset_right = 1187.0
+offset_bottom = 635.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
