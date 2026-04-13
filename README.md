@@ -204,36 +204,38 @@ Break
 
 ## Week 13 - Monday 4/6 - Capstone Presentations
 
-- Exporting
-- Animated Characters
+
 
 **DUE: Capstone Presentations**
 
 ## Week 14 - Monday 4/13 - Review
+- Exporting
+- Animated Characters
+- Web Export Github Pages
 
-- Particles
-- Animation Trees
 - Resources
 - NPCs
   - FSM
   - Navigation
-- Web Export Github Pages
+
+- Particles
+- Animation Trees
 
 ## Week 15 - Monday 4/20 - Review
 
-**DUE: Final project playtest**
 - Review
 
 ## Week 16 - Monday 4/27 - Playtesting and Beyond
 
 - Can I get a job in game design?
 - Playtest party!
+**DUE: Final project playtest**
 
-**DUE: Game Review**
-**DUE: Capstone Project**
+
 
 ## Finals Week - Monday 5/4 - Final Presentations
-
+**DUE: Game Review**
+**DUE: Capstone Project**
 **DUE: Capstone Project (if not submitted 4/27)**
 
 # **Necessary Materials:**
