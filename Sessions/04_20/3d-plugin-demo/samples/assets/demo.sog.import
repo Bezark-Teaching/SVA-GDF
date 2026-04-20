@@ -1,0 +1,15 @@
+[remap]
+
+importer="gaussian.splat.importer"
+importer_version=5
+type="Resource"
+uid="uid://dmci0vqdfvc0x"
+path="res://.godot/imported/demo.sog-2b00a1bff26db23bdc6071d723c7273e.res"
+
+[deps]
+
+source_file="res://samples/assets/demo.sog"
+dest_files=["res://.godot/imported/demo.sog-2b00a1bff26db23bdc6071d723c7273e.res"]
+
+[params]
+

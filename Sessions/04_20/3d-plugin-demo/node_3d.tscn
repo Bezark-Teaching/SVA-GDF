@@ -1,0 +1,66 @@
+[gd_scene format=3 uid="uid://beft5vjm11f7"]
+
+[ext_resource type="Script" uid="uid://mouhdar3ilm7" path="res://addons/gdgs/runtime/compositor/gaussian_compositor_effect.gd" id="1_a0tk4"]
+[ext_resource type="Script" uid="uid://borhb7b8ws36b" path="res://addons/gdgs/runtime/nodes/gaussian_splat_node.gd" id="1_noarx"]
+[ext_resource type="Resource" uid="uid://du6gu4akk6t0p" path="res://samples/assets/demo.ply" id="2_a0tk4"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_r3fl7"]
+sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+ground_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+
+[sub_resource type="Sky" id="Sky_jka67"]
+sky_material = SubResource("ProceduralSkyMaterial_r3fl7")
+
+[sub_resource type="Environment" id="Environment_i5arm"]
+background_mode = 2
+sky = SubResource("Sky_jka67")
+tonemap_mode = 2
+glow_enabled = true
+
+[sub_resource type="CompositorEffect" id="CompositorEffect_r3fl7"]
+resource_local_to_scene = false
+resource_name = ""
+enabled = true
+effect_callback_type = 3
+access_resolved_color = false
+access_resolved_depth = true
+needs_motion_vectors = false
+needs_normal_roughness = false
+script = ExtResource("1_a0tk4")
+metadata/_custom_type_script = "uid://mouhdar3ilm7"
+
+[sub_resource type="Compositor" id="Compositor_jka67"]
+compositor_effects = Array[CompositorEffect]([SubResource("CompositorEffect_r3fl7")])
+
+[node name="Node3D" type="Node3D" unique_id=921094210]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=553623420]
+transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 0, 0, 0)
+shadow_enabled = true
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1250079166]
+environment = SubResource("Environment_i5arm")
+compositor = SubResource("Compositor_jka67")
+
+[node name="GaussianSplatNode" type="VisualInstance3D" parent="." unique_id=317076255]
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 0
+auto_translate_mode = 0
+editor_description = ""
+transform = Transform3D(-1, -8.742278e-08, 0, 8.742278e-08, -1, 0, 0, 0, 1, 0, 0, 0)
+rotation_edit_mode = 0
+rotation_order = 2
+top_level = false
+visible = true
+visibility_parent = NodePath("")
+layers = 1
+script = ExtResource("1_noarx")
+gaussian = ExtResource("2_a0tk4")
+metadata/_custom_type_script = "uid://borhb7b8ws36b"
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=882896747]
+transform = Transform3D(1, 0, 0, 0, 0.9102578, 0.41404197, 0, -0.41404197, 0.9102578, 0, 1.1822808, 4.065527)

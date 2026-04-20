@@ -1,6 +1,7 @@
 # Top of Mind
 - [Sign up for the Capstone Game Jam](https://itch.io/jam/sva-gdf-spring-2026-capstone-jam)
 - Video Tutorials:
+  - [3D Amimations and Plugins](https://youtu.be/UavNkZsHA7E)
   - [Uploading Games to Itch](https://youtu.be/Jl8RoARhyJs)
   - [Classes and Resources](https://youtu.be/MoWTLKvZ2z0)
   - [MODELS AND ANIMS](https://youtu.be/lf76C5FFewQ)
