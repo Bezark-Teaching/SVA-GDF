@@ -1,4 +1,6 @@
 # Top of Mind
+- Thanks for an amazing semester! keep in touch by emailing me at john-designs@bezark.fun
+- [Here's the final lecture](https://youtu.be/kNP0tid4CLY) and [final slides](https://docs.google.com/presentation/d/1m_Pme4QIolADS6MawXt3hmFRhTdkEl4ggMznYDdsHCk/edit?usp=sharing)
 - [Sign up for the Capstone Game Jam](https://itch.io/jam/sva-gdf-spring-2026-capstone-jam)
 - Video Tutorials:
   - [3D Amimations and Plugins](https://youtu.be/UavNkZsHA7E)
